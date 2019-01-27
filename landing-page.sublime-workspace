@@ -11,7 +11,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5351,
+				"buffer_size": 5356,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -24,22 +24,6 @@
 				"encoding": "UTF-8",
 				"line_ending": "Windows",
 				"name": "* {"
-			}
-		},
-		{
-			"file": "/C/Users/Michal/Individual-project/package.json",
-			"settings":
-			{
-				"buffer_size": 1798,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/Michal/learning-git-2/package.json",
-			"settings":
-			{
-				"buffer_size": 1822,
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -75,12 +59,12 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Michal/learning-git-2/package.json",
 		"/C/Users/Michal/Individual-project/package.json",
 		"/C/Users/Michal/Desktop/Programowanie/Projekty i zadania/Projekt indwywidualny 2019-01-15/javascipt.js",
 		"/C/Users/Michal/Desktop/Programowanie/Projekty i zadania/Projekt indwywidualny 2019-01-15/style.css",
 		"/C/Users/Michal/Desktop/Programowanie/Projekty i zadania/Projekt indwywidualny 2019-01-15/index.html",
 		"/C/Users/Michal/Desktop/Programowanie/Projekty i zadania/Projekt indwywidualny 2019-01-15/package.json",
-		"/C/Users/Michal/learning-git-2/package.json",
 		"/C/Users/Michal/learning-git-2/package-lock.json",
 		"/C/Users/Michal/Desktop/Programowanie/Projekty i zadania/Struktura html i stylizacja css 2018-11-06/Wprowadzenie html 2018-11-06/html.txt",
 		"/C/Users/Michal/learning-git-2/node_modules/node-sass/package.json",
@@ -158,7 +142,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -167,15 +151,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5351,
+						"buffer_size": 5356,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								645,
-								645
+								5356,
+								5356
 							]
 						],
 						"settings":
@@ -186,7 +170,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -214,66 +198,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Users/Michal/Individual-project/package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1798,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2508.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/C/Users/Michal/learning-git-2/package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1822,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1750,
-								1750
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 570.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
 					"type": "text"
 				}
 			]
