@@ -27,9 +27,11 @@ header {
     max-height: 100%;
 }
 
-header, footer {
-  text-align: center;
-  width: 100%;
+.first, .last {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .row::before, 
@@ -40,9 +42,9 @@ header, footer {
 }
 
 .clearfix::after {
-  content: "";
-  display: table;
-  clear: both; }
+    content: "";
+    display: table;
+    clear: both; }
 
 [class*="col-"] {
     float: left;
@@ -105,7 +107,7 @@ header, footer, {
 @media (max-width: 1199px){
     /* For tablets: */
     
-    header {
+    .first, .last {
         width: auto;
         height: auto;    
     }
@@ -167,12 +169,13 @@ header, footer, {
 @media(max-width: 767px) {
     /*small devices*/
 
-    .main {
-        display: block;
+    .first, .last {
+        width: auto;
+        height: auto;    
     }
 
-    header {
-        width: auto;   
+    .main {
+        display: inline-block;
     }
   
     .col-s-1 {
