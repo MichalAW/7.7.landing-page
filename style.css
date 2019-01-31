@@ -7,24 +7,119 @@ body {
 }
 
 header {
-    background-size: 100% auto;
-    background-size: cover;
-    background-position: center;
-    background-image: url("./imgpng/backgroundheader.png" alt="backgroundheaderimage");
+    width: 1200px;
+    height: 600px;
+    background-color: #000000;
+    opacity: 0.8;
+    background-image: url("./imgpng/backgroundheader.png");
+    text-align: center;
+}
+
+.logo {
+    width: 79px;
+    height: 28px;
+}
+
+.menu {
+    width: 45px;
+    height: 10px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 41px;
+}
+
+#topbar {
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+#topbar li a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#topbar li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#topbar li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 75px;
+    font-weight: 700;
+    letter-spacing: -1.88px;
+    text-transform: uppercase;
+}
+
+h2 {
+    padding: 50px 0 0;
+    color: #222222;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h3 {
+    color: #ffffff;
+    font-family: "Droid Serif";
+    font-size: 40px;
+    font-style: italic;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+h4 {
+    width: 79px;
+    height: 28px;
+    color: #fed136;
+    font-family: "Wisdom - Script";
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 41px;
+    color: #fed136;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+
+.btn {
+     width: 240px;
+    height: 65px;
+    background-color: #fed136;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .container {
     width: 100%;
     margin: 0 auto;
-    max-width: 1200px;
     background-color: #FFFFFF;
     text-align:center;
 }
 
 .main, {
     object-fit: cover;
-    width: 100%
+    width: 100%;
     max-height: 100%;
+    text-align: center;
+}
+
+.portfolio {
+    background-color: #f7f7f7;
 }
 
 .first, .last {
