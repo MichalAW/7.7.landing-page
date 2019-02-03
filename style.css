@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #F8F8FF;
+    background-color: #F8F8FF;
 }
 
 header {
@@ -37,20 +37,20 @@ header {
 }
 
 .topbar li a {
-  float: right;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 0 16px;
-  text-decoration: none;
-  font-size: 17px;
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 .topbar li a:hover {
-  color: black;
+    color: black;
 }
 
 .topbar li a.active {
-  color: white;
+    color: white;
 }
 
 .welcome {
@@ -162,6 +162,7 @@ header, footer, {
     list-style: none;
     display: block;
     float: left;
+    margin-right: 20px;
 }
 
 .socialmedia li a {
@@ -171,3 +172,14 @@ header, footer, {
 footer p {
     float: left;
 }
+
+footer i {
+    background-color: #222222;
+    color: #ffffff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+
