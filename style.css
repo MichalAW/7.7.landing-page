@@ -99,7 +99,7 @@ h2 {
 }
 
 .btn {
-     width: 240px;
+    width: 240px;
     height: 65px;
     background-color: #fed136;
     color: #ffffff;
@@ -107,12 +107,13 @@ h2 {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
+    margin-bottom: 100px;
 }
 
 .container {
     width: 100%;
     margin: 0 auto;
-    text-align:center;
+    text-align: center;
 }
 
 .portfolio {
@@ -122,7 +123,7 @@ h2 {
 .team {
     background-color: #D3D3D3;
 }
-
+/*Text on right*/
 .july h5 {
     text-align: right;
 }
@@ -171,7 +172,6 @@ h2 {
     padding: 10px;
 }
 
-
 header, footer, {
     text-align: center;
 }
@@ -205,5 +205,3 @@ footer i {
     border-radius: 50%;
     padding-top: 10px;
 }
-
-
