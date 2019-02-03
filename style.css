@@ -9,10 +9,11 @@ body {
 header {
     width: 1200px;
     height: 600px;
-    background-color: #000000;
     opacity: 0.8;
     background-image: url("./imgpng/backgroundheader.png");
+    background-position: center;
     text-align: center;
+    position: relative;
 }
 
 .logo {
@@ -21,21 +22,21 @@ header {
 }
 
 .menu {
-    width: 45px;
-    height: 10px;
     color: #ffffff;
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 400;
     line-height: 41px;
+    float: right;
+    text-transform: uppercase;
 }
 
-#topbar {
-  overflow: hidden;
-  background-color: #FFFFFF;
+.menu li {
+    display: block;
+    float: left;
 }
 
-#topbar li a {
+.topbar li a {
   float: right;
   color: #f2f2f2;
   text-align: center;
@@ -44,14 +45,19 @@ header {
   font-size: 17px;
 }
 
-#topbar li a:hover {
-  background-color: #ddd;
+.topbar li a:hover {
   color: black;
 }
 
-#topbar li a.active {
-  background-color: #4CAF50;
+.topbar li a.active {
   color: white;
+}
+
+.welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 h1 {
@@ -87,10 +93,8 @@ h4 {
     font-family: "Wisdom - Script";
     font-size: 26px;
     font-weight: 400;
-    line-height: 41px;
-    color: #fed136;
+    line-height: 41px;11110
     letter-spacing: 1.3px;
-    text-transform: uppercase;
 }
 
 .btn {
@@ -107,7 +111,6 @@ h4 {
 .container {
     width: 100%;
     margin: 0 auto;
-    background-color: #FFFFFF;
     text-align:center;
 }
 
