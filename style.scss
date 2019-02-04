@@ -126,14 +126,76 @@ h2 {
     background-color: #D3D3D3;
 }
 
-.july {
-    h5 {
-    text-align: right;
-    }
+.july-row {
+    display: flex;
+    flex-direction: row;
+}
 
-    p {
-    text-align: right;
-    }
+.july-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80%;
+    width: 30%;
+    float: left;
+}
+
+.july-content {
+    max-width: 70%;
+}
+
+.january-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.january-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80%;
+    width: 30%;
+    float: right;
+}
+
+.january-content {
+    max-width: 70%;
+}
+
+.december-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.december-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80%;
+    width: 30%;
+    float: left;
+}
+
+.december-content {
+    max-width: 70%;
+}
+
+.february-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.february-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80%;
+    width: 30%;
+    float: right;
+}
+
+.february-content {
+    max-width: 70%;
 }
 
 .contact {
@@ -201,6 +263,17 @@ header, footer, {
     }
 }
 
+/*inputs*/
+.message-on-right {
+    float: right;
+}
+
+.three-inputs {
+    float: left;
+    position: absolute;
+    display: inline-block;
+}
+
 footer {
     p {
         float: left;
@@ -213,5 +286,16 @@ footer {
     height: 35px;
     border-radius: 50%;
     padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .welcome {
+        h1 {
+        font-size: 30px;
+    }
+
+         h3 {
+        font-size: 20px;
     }
 }
