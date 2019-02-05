@@ -130,40 +130,50 @@ h2 {
 /*Text on right*/
 .july-row {
     display: flex;
-    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .july-text {
-    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 30%;
 }
 
 .january-row {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
 
 .january-text {
-    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 30%;
 }
-
 
 .december-row {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
 
 .december-text {
-    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 30%;
 }
-
 
 .february-row {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
 
 .february-text {
-   flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 30%;
 }
 
 .contact {
