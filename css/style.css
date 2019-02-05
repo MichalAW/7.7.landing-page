@@ -1,295 +1,78 @@
-* {
-    box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
-body {
-    background-color: #F8F8FF;
-}
+body { background-color: #F8F8FF; }
 
-.about {
-    text-align: center;
-    width: 100%;
-    margin: 0 auto;
-}
-/*fonts*/
-h4, h3, p {
-    font-family: 'Pacifico', cursive;
-}
+.about { text-align: center; width: 100%; margin: 0 auto; }
 
-header {
-    height: 690px;
-    background-image: url("./imgpng/backgroundheader.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    position: relative;
-    background-size: cover;
-}
+header { height: 690px; background-image: url("./imgpng/backgroundheader.png"); background-position: center; background-repeat: no-repeat; text-align: center; position: relative; background-size: cover; }
 
-.topbar {
-    color: #ffffff;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 41px;
-    float: right;
-    text-transform: uppercase;
-}
+.topbar { color: #ffffff; font-family: Montserrat; font-size: 14px; font-weight: 400; line-height: 41px; float: right; text-transform: uppercase; }
 
-.topbar li {
-    display: block;
-    float: left;
-}
+.topbar li { display: block; float: left; }
 
-.topbar li a {
-    float: right;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 0 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
+.topbar a { float: right; color: #f2f2f2; text-align: center; padding: 0 16px; text-decoration: none; font-size: 17px; }
 
-.topbar li a:hover {
-    color: black;
-}
+.topbar aa:hover { color: black; }
 
-.topbar li a.active {
-    color: white;
-}
+.topbar aa.active { color: white; }
 
-.welcome {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+.welcome { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
 
-.welcome h1 {
-    color: #ffffff;
-    font-family: Montserrat;
-    font-size: 75px;
-    font-weight: 700;
-    letter-spacing: -1.88px;
-    text-transform: uppercase;
-}
+.welcome h1 { color: #ffffff; font-family: Montserrat; font-size: 75px; font-weight: 700; letter-spacing: -1.88px; text-transform: uppercase; }
 
-h2 {
-    padding: 50px 0 0;
-    color: #222222;
-    font-family: Montserrat;
-    text-transform: uppercase;
-    font-weight: 700;
-}
+.welcome h3 { color: #ffffff; font-family: "Droid Serif"; font-size: 40px; font-style: italic; letter-spacing: -1px; text-transform: uppercase; }
 
-.welcome h3 {
-    color: #ffffff;
-    font-family: "Droid Serif";
-    font-size: 40px;
-    font-style: italic;
-    letter-spacing: -1px;
-    text-transform: uppercase;
-}
+h2 { padding: 50px 0 0; color: #222222; font-family: Montserrat; text-transform: uppercase; font-weight: 700; }
 
-.logo {
-    width: 79px;
-    height: 28px;
-    color: #fed136;
-    font-family: "Wisdom - Script";
-    font-size: 26px;
-    font-weight: 400;
-    line-height: 41px;
-    letter-spacing: 1.3px;
-}
+.logo { width: 79px; height: 28px; color: #fed136; font-family: "Wisdom - Script"; font-size: 26px; font-weight: 400; line-height: 41px; letter-spacing: 1.3px; }
 
-.btn {
-    width: 240px;
-    height: 65px;
-    background-color: #fed136;
-    color: #ffffff;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 100px;
-}
+.btn { width: 240px; height: 65px; background-color: #fed136; color: #ffffff; font-family: Montserrat; font-size: 18px; font-weight: 700; text-transform: uppercase; margin-bottom: 100px; }
 
-.container {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-}
+.container { width: 100%; margin: 0 auto; text-align: center; }
 
-.portfolio {
-    background-color: #f7f7f7;
-}
+.portfolio { background-color: #f7f7f7; }
 
-.team {
-    background-color: #D3D3D3;
-}
-/*Text on right*/
-.july-row {
-    display: flex;
-    flex-direction: row;
-}
+.team { background-color: #D3D3D3; }
 
-.july-text {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 80%;
-    width: 30%;
-    float: left;
-}
+.july-row { display: -ms-flexbox; display: flex; -ms-flex-direction: row; flex-direction: row; }
 
-.july-content {
-    max-width: 70%;
-}
+.july-text { -ms-flex-direction: column; flex-direction: column; }
 
-.january-row {
-    display: flex;
-    flex-direction: row;
-}
+.january-row { display: -ms-flexbox; display: flex; -ms-flex-direction: row; flex-direction: row; }
 
-.january-text {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 80%;
-    width: 30%;
-    float: right;
-}
+.january-text { -ms-flex-direction: column; flex-direction: column; }
 
-.january-content {
-    max-width: 70%;
-}
+.december-row { display: -ms-flexbox; display: flex; -ms-flex-direction: row; flex-direction: row; }
 
-.december-row {
-    display: flex;
-    flex-direction: row;
-}
+.december-text { -ms-flex-direction: column; flex-direction: column; }
 
-.december-text {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 80%;
-    width: 30%;
-    float: left;
-}
+.february-row { display: -ms-flexbox; display: flex; -ms-flex-direction: row; flex-direction: row; }
 
-.december-content {
-    max-width: 70%;
-}
+.february-text { -ms-flex-direction: column; flex-direction: column; }
 
-.february-row {
-    display: flex;
-    flex-direction: row;
-}
+.contact { background-image: url("./imgpng/backgroundcontact.png"); background-position: center; background-repeat: no-repeat; text-align: center; position: relative; background-size: cover; }
 
-.february-text {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 80%;
-    width: 30%;
-    float: right;
-}
+.contact h5 { padding: 50px 0 0; color: #ffffff; font-family: Montserrat; text-transform: uppercase; font-weight: 700; }
 
-.february-content {
-    max-width: 70%;
-}
+.contact p { color: #484848; font-family: Droid Serif; }
 
-.contact {
-    background-image: url("./imgpng/backgroundcontact.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    position: relative;
-    background-size: cover;
-}
+.row::before, .row::after { content: ""; display: table; clear: both; }
 
-.contact h5 {
-    padding: 50px 0 0;
-    color: #ffffff;
-    font-family: Montserrat;
-    text-transform: uppercase;
-    font-weight: 700;
-}
+.clearfix::after { content: ""; display: table; clear: both; }
 
-.contact p {
-    color: #484848;
-    font-family: Droid Serif;
-}
+[class*="col-"] { float: left; min-height: 1px; padding: 10px; }
 
-.row::before, 
-.row::after {
-    content: "";
-    display: table;
-    clear: both;
-}
+header, footer { text-align: center; }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both; }
+.socialmedia { display: inline-block; text-align: center; margin-top: 20px; }
 
-[class*="col-"] {
-    float: left;
-    min-height: 1px;
-    padding: 10px;
-}
+.socialmedia li { list-style: none; display: block; float: left; margin-right: 20px; }
 
-header, footer, {
-    text-align: center;
-}
+.socialmedia a { text-decoration: none; }
 
-.socialmedia {
-    display: inline-block;
-    text-align: center;
-    margin-top: 20px;
-}
+footer p { float: left; }
 
-.socialmedia li {
-    list-style: none;
-    display: block;
-    float: left;
-    margin-right: 20px;
-}
+footer i { background-color: #222222; color: #ffffff; width: 35px; height: 35px; border-radius: 50%; padding-top: 10px; }
 
-.socialmedia li a {
-    text-decoration: none;
-}
-/*inputs*/
-.message-on-right {
-    float: right;
-}
-
-.three-inputs {
-    float: left;
-    position: absolute;
-    display: inline-block;
-}
-
-footer p {
-    float: left;
-}
-
-footer i {
-    background-color: #222222;
-    color: #ffffff;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    padding-top: 10px;
-}
-
-@media only screen and (max-width: 768px) {
-    .welcome h1 {
-        font-size: 40px;
-    }
-
-    .welcome h3 {
-        font-size: 30px;
-    }
-}
+@media only screen and (max-width: 768px) { .welcome h1 { font-size: 30px; }
+  .welcome h3 { font-size: 20px; } }
