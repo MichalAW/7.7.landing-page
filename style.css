@@ -134,16 +134,7 @@ h2 {
 }
 
 .july-text {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 80%;
-    width: 30%;
-    float: left;
-}
-
-.july-content {
-    max-width: 70%;
+    flex-direction: column;
 }
 
 .january-row {
@@ -152,17 +143,9 @@ h2 {
 }
 
 .january-text {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 80%;
-    width: 30%;
-    float: right;
+    flex-direction: column;
 }
 
-.january-content {
-    max-width: 70%;
-}
 
 .december-row {
     display: flex;
@@ -170,17 +153,9 @@ h2 {
 }
 
 .december-text {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 80%;
-    width: 30%;
-    float: left;
+    flex-direction: column;
 }
 
-.december-content {
-    max-width: 70%;
-}
 
 .february-row {
     display: flex;
@@ -188,16 +163,7 @@ h2 {
 }
 
 .february-text {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 80%;
-    width: 30%;
-    float: right;
-}
-
-.february-content {
-    max-width: 70%;
+   flex-direction: column;
 }
 
 .contact {
@@ -259,16 +225,6 @@ header, footer, {
 
 .socialmedia li a {
     text-decoration: none;
-}
-/*inputs*/
-.message-on-right {
-    float: right;
-}
-
-.three-inputs {
-    float: left;
-    position: absolute;
-    display: inline-block;
 }
 
 footer p {
