@@ -36,19 +36,19 @@ h2 { padding: 50px 0 0; color: #222222; font-family: Montserrat; text-transform:
 
 .absolute { position: absolute; }
 
-.july-row { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; }
+.july-row { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; padding: 50px 0; }
 
 .july-text { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; max-width: 30%; margin-right: auto; }
 
-.january-row { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; }
+.january-row { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; padding: 50px 0; }
 
 .january-text { display: -ms-flexbox; display: flex; -ms-flex-pack: start; justify-content: flex-start; max-width: 30%; margin-left: auto; }
 
-.december-row { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; }
+.december-row { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; padding: 50px 0; }
 
 .december-text { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; max-width: 30%; margin-right: auto; }
 
-.february-row { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; }
+.february-row { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; padding: 50px 0; }
 
 .february-text { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; max-width: 30%; margin-left: auto; }
 
