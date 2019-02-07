@@ -34,21 +34,23 @@ h2 { padding: 50px 0 0; color: #222222; font-family: Montserrat; text-transform:
 
 .team { background-color: #D3D3D3; }
 
-.july-row { display: -ms-flexbox; display: flex; -ms-flex-direction: row; flex-direction: row; }
+.absolute { position: absolute; }
 
-.july-text { -ms-flex-direction: column; flex-direction: column; }
+.july-row { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; }
 
-.january-row { display: -ms-flexbox; display: flex; -ms-flex-direction: row; flex-direction: row; }
+.july-text { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; max-width: 30%; margin-right: auto; }
 
-.january-text { -ms-flex-direction: column; flex-direction: column; }
+.january-row { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; }
 
-.december-row { display: -ms-flexbox; display: flex; -ms-flex-direction: row; flex-direction: row; }
+.january-text { display: -ms-flexbox; display: flex; -ms-flex-pack: start; justify-content: flex-start; max-width: 30%; margin-left: auto; }
 
-.december-text { -ms-flex-direction: column; flex-direction: column; }
+.december-row { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; }
 
-.february-row { display: -ms-flexbox; display: flex; -ms-flex-direction: row; flex-direction: row; }
+.december-text { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; max-width: 30%; margin-right: auto; }
 
-.february-text { -ms-flex-direction: column; flex-direction: column; }
+.february-row { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; }
+
+.february-text { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; max-width: 30%; margin-left: auto; }
 
 .contact { background-image: url("./imgpng/backgroundcontact.png"); background-position: center; background-repeat: no-repeat; text-align: center; position: relative; background-size: cover; }
 
