@@ -128,16 +128,20 @@ h2 {
     background-color: #D3D3D3;
 }
 /*Text on right*/
+.absolute {
+    position: absolute;
+}
+
 .july-row {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .july-text {
     display: flex;
-    align-items: center;
     justify-content: center;
     max-width: 30%;
+    margin-right: auto;
 }
 
 .january-row {
@@ -147,9 +151,9 @@ h2 {
 
 .january-text {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     max-width: 30%;
+    margin-left: auto;
 }
 
 .december-row {
@@ -162,6 +166,7 @@ h2 {
     align-items: center;
     justify-content: center;
     max-width: 30%;
+    margin-right: auto;
 }
 
 .february-row {
@@ -174,6 +179,7 @@ h2 {
     align-items: center;
     justify-content: center;
     max-width: 30%;
+    margin-left: auto;
 }
 
 .contact {

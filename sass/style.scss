@@ -126,49 +126,58 @@ h2 {
     background-color: #D3D3D3;
 }
 
+.absolute {
+    position: absolute;
+}
+
 .july-row {
     display: flex;
+    justify-content: center;
 }
 
 .july-text {
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 100%;
+    max-width: 30%;
+    margin-right: auto;
 }
 
 .january-row {
     display: flex;
+    justify-content: center;
 }
 
 .january-text {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+    justify-content: flex-start;
+    max-width: 30%;
+    margin-left: auto;
 }
 
 .december-row {
-   display: flex;
+    display: flex;
+    justify-content: center;
 }
 
 .december-text {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    max-width: 30%;
+    margin-right: auto;
 }
-
 
 .february-row {
     display: flex;
+    justify-content: center;
 }
 
 .february-text {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    max-width: 30%;
+    margin-left: auto;
 }
 
 .contact {
