@@ -240,6 +240,7 @@ header, footer, {
         float: left;
         margin-right: 20px;
     }
+
     a {
         text-decoration: none;
     }
@@ -262,6 +263,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
     .welcome {
+    
         h1 {
         font-size: 30px;
     }
