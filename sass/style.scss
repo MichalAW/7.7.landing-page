@@ -30,6 +30,7 @@ header {
     line-height: 41px;
     float: right;
     text-transform: uppercase;
+    padding-top: 20px;
 }
 
 .topbar {
@@ -90,14 +91,13 @@ h2 {
 }
 
 .logo {
-    width: 79px;
-    height: 28px;
+    width: 99px;
+    height: 38px;
     color: #fed136;
-    font-family: "Wisdom - Script";
-    font-size: 26px;
-    font-weight: 400;
     line-height: 41px;
-    letter-spacing: 1.3px;
+    margin-left: 110px;
+    margin-top: 20px;
+    position: absolute;
 }
 
 .btn {
@@ -133,7 +133,6 @@ h2 {
 .july-row {
     display: flex;
     justify-content: center;
-    padding: 50px 0;
 }
 
 .july-text {
@@ -146,7 +145,6 @@ h2 {
 .january-row {
     display: flex;
     justify-content: center;
-    padding: 50px 0;
 }
 
 .january-text {
@@ -159,7 +157,6 @@ h2 {
 .december-row {
     display: flex;
     justify-content: center;
-    padding: 50px 0;
 }
 
 .december-text {
@@ -173,7 +170,6 @@ h2 {
 .february-row {
     display: flex;
     justify-content: center;
-    padding: 50px 0;
 }
 
 .february-text {
@@ -273,6 +269,4 @@ footer {
          h3 {
         font-size: 20px;
     }
-
-    
 }}
