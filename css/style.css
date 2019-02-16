@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #F8F8FF;
+  background-color: #FFFFFF;
 }
 
 .about {
@@ -12,9 +12,14 @@ body {
   margin: 0 auto;
 }
 
+/*fonts*/
+h4, h3, p {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
 header {
   height: 690px;
-  background-image: url("./imgpng/backgroundheader.png");
+  background-image: url("../imgpng/backgroundheader.png");
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
@@ -23,8 +28,7 @@ header {
 }
 
 .topbar {
-  color: #ffffff;
-  font-family: Montserrat;
+  color: #FFFFFF;
   font-size: 14px;
   font-weight: 400;
   line-height: 41px;
@@ -40,18 +44,18 @@ header {
 
 .topbar a {
   float: right;
-  color: #f2f2f2;
+  color: #F2F2F2;
   text-align: center;
   padding: 0 16px;
   text-decoration: none;
   font-size: 17px;
 }
 
-.topbar aa:hover {
+.topbar a:hover {
   color: black;
 }
 
-.topbar aa.active {
+.topbar a.active {
   color: white;
 }
 
@@ -62,30 +66,50 @@ header {
   transform: translate(-50%, -50%);
 }
 
+.welcome {
+  margin-top: 100px;
+}
+
 .welcome h1 {
   color: #ffffff;
-  font-family: Montserrat;
-  font-size: 75px;
-  font-weight: 700;
+  font-family: Arial;
+  font-size: 55px;
+  font-weight: 600;
   letter-spacing: -1.88px;
   text-transform: uppercase;
+  width: 100%;
+  height: 59px;
 }
 
 .welcome h3 {
   color: #ffffff;
-  font-family: "Droid Serif";
-  font-size: 40px;
+  font-family: Arial;
+  font-size: 30px;
   font-style: italic;
   letter-spacing: -1px;
-  text-transform: uppercase;
+  top: 276px;
 }
 
 h2 {
   padding: 50px 0 0;
   color: #222222;
-  font-family: Montserrat;
+  font-family: Arial;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.services {
+  padding-top: 126px;
+  padding-bottom: 116px;
+}
+
+.services-h {
+  margin-bottom: 84px;
+}
+
+.services-p {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .logo {
@@ -103,11 +127,11 @@ h2 {
   height: 65px;
   background-color: #fed136;
   color: #ffffff;
-  font-family: Montserrat;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 100px;
+  margin-top: 50px;
 }
 
 .container {
@@ -116,16 +140,33 @@ h2 {
   text-align: center;
 }
 
-.portfolio {
-  background-color: #f7f7f7;
+.background-portfolio {
+  background-color: #F7F7F7;
 }
 
-.team {
-  background-color: #D3D3D3;
+.portfolio {
+  padding-bottom: 80px;
+  padding-top: 110px;
 }
 
 .absolute {
   position: absolute;
+}
+
+.absolute img {
+  padding-bottom: 20px;
+}
+
+.callendar h2, h5 {
+  font-weight: bold;
+}
+
+.callendar-h h2 {
+  padding-top: 115px;
+}
+
+.callendar-background {
+  padding-bottom: 115px;
 }
 
 .july-row {
@@ -178,8 +219,52 @@ h2 {
   margin-left: auto;
 }
 
-.contact {
-  background-image: url("./imgpng/backgroundcontact.png");
+.team-background {
+  background-color: #F9F9F9;
+}
+
+.team-h {
+  padding-top: 115px;
+  padding-bottom: 84px;
+}
+
+.team-p {
+  padding-bottom: 115px;
+}
+
+.socialmedia-team {
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.socialmedia-team li {
+  list-style: none;
+  display: block;
+  float: left;
+  margin-right: 20px;
+}
+
+.socialmedia-team li a {
+  text-decoration: none;
+}
+
+.socialmedia-team li i {
+  background-color: #F9F9F9;
+  color: #222222;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  padding-top: 10px;
+  border: 2px solid #212121;
+}
+
+.sponsor-background {
+  width: 100%;
+}
+
+.contact-background {
+  background-image: url("../imgpng/backgroundcontact.png");
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
@@ -214,7 +299,6 @@ h2 {
 }
 
 [class*="col-"] {
-  float: left;
   min-height: 1px;
   padding: 10px;
 }
@@ -236,8 +320,17 @@ header, footer {
   margin-right: 20px;
 }
 
-.socialmedia a {
+.socialmedia li a {
   text-decoration: none;
+}
+
+.socialmedia li i {
+  background-color: #222222;
+  color: #ffffff;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  padding-top: 10px;
 }
 
 footer p {
