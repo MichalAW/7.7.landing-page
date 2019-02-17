@@ -168,6 +168,13 @@ h2 {
     padding-bottom: 115px;
 }
 
+.vertical-line {
+    border-left: thick solid #F9F9F9;
+    position: absolute;
+    display: block;
+    float: right;
+}
+
 .july-row {
     display: flex;
     justify-content: center;
@@ -318,15 +325,14 @@ header, footer, {
 
         a {
             text-decoration: none;
-        }
-
-        i {
-            background-color: #222222;
-            color: #ffffff;
-            width: 35px;
-            height: 35px;
-            border-radius: 50%;
-            padding-top: 10px;
+            i {
+                background-color: #222222;
+                color: #ffffff;
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                padding-top: 10px;
+            }
         }
     }
 }
@@ -334,13 +340,14 @@ header, footer, {
 footer {
     p {
         float: left;
+        font-size: 12px;
     }
 
     i {
-    background-color: #222222;
-    color: #ffffff;
-    width: 35px;
-    height: 35px;
+    background-color: #ffffff;
+    color: #222222;
+    width: 16px;
+    height: 16px;
     border-radius: 50%;
     padding-top: 10px;
     }

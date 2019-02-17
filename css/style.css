@@ -169,6 +169,13 @@ h2 {
   padding-bottom: 115px;
 }
 
+.vertical-line {
+  border-left: thick solid #F9F9F9;
+  position: absolute;
+  display: block;
+  float: right;
+}
+
 .july-row {
   display: flex;
   justify-content: center;
@@ -324,7 +331,7 @@ header, footer {
   text-decoration: none;
 }
 
-.socialmedia li i {
+.socialmedia li a i {
   background-color: #222222;
   color: #ffffff;
   width: 35px;
@@ -335,13 +342,14 @@ header, footer {
 
 footer p {
   float: left;
+  font-size: 12px;
 }
 
 footer i {
-  background-color: #222222;
-  color: #ffffff;
-  width: 35px;
-  height: 35px;
+  background-color: #ffffff;
+  color: #222222;
+  width: 16px;
+  height: 16px;
   border-radius: 50%;
   padding-top: 10px;
 }
