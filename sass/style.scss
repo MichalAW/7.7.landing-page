@@ -1,9 +1,20 @@
+$white-color: #FFFFFF;
+$topbar-a-color: #F2F2F2;
+$black-color: #222222;
+$black-i-color: #212121;
+$orange-color: #FED136;
+$grey-color: #F7F7F7;
+$grey-contact-color: #484848;
+$thick-color: #F9F9F9;
+$fonts: Open Sans Condensed', sans-serif;
+$fonts-h: font-family: Arial;
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-color: #FFFFFF;
+    background-color: $white-color;
 }
 
 .about {
@@ -13,7 +24,7 @@ body {
 }
 /*fonts*/
 h4, h3, p {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: $fonts;
 }
 
 header {
@@ -27,7 +38,6 @@ header {
 }
 
 .topbar {
-    color: #FFFFFF;
     font-size: 14px;
     font-weight: 400;
     line-height: 41px;
@@ -44,7 +54,7 @@ header {
     
     a {
         float: right;
-        color: #F2F2F2;
+        color: $topbar-a-color;
         text-align: center;
         padding: 0 16px;
         text-decoration: none;
@@ -69,8 +79,8 @@ header {
 .welcome {
     margin-top: 100px;
     h1 {
-        color: #ffffff;
-        font-family: Arial;
+        color: $white-color;
+        font-family: $fonts-h;
         font-size: 55px;
         font-weight: 600;
         letter-spacing: -1.88px;
@@ -80,8 +90,8 @@ header {
     }
 
     h3 {
-        color: #ffffff;
-        font-family: Arial;
+        color: $white-color;
+        font-family: $fonts-h;
         font-size: 30px;
         font-style: italic;
         letter-spacing: -1px;
@@ -91,8 +101,8 @@ header {
 
 h2 {
     padding: 50px 0 0;
-    color: #222222;
-    font-family: Arial;
+    color: $black-color;
+    font-family: $fonts-h;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -114,7 +124,6 @@ h2 {
 .logo {
     width: 99px;
     height: 38px;
-    color: #fed136;
     line-height: 41px;
     margin-left: 110px;
     margin-top: 20px;
@@ -124,7 +133,7 @@ h2 {
 .btn {
     width: 240px;
     height: 65px;
-    background-color: #fed136;
+    background-color: $orange-color;
     color: #ffffff;
     font-size: 18px;
     font-weight: 700;
@@ -140,7 +149,7 @@ h2 {
 }
 
 .background-portfolio {
-    background-color: #F7F7F7;
+    background-color: $grey-color;
 }
 
 .portfolio {
@@ -169,11 +178,10 @@ h2 {
 }
 
 .vertical-line {
-    border-left: thick solid #F9F9F9;
+    border-left: thick solid $thick-color;
     position: absolute;
     height: 400px;
     display: block;
-    float: right;
     z-index: -1;
 }
 
@@ -198,7 +206,7 @@ h2 {
 }
 
 .team-background {
-    background-color: #F9F9F9;  
+    background-color: $grey-color;  
 }
 
 .team-h {
@@ -225,13 +233,13 @@ h2 {
         }
 
         i {
-            background-color: #F9F9F9;
-            color: #222222;
+            background-color: $grey-color;
+            color: $black-color;
             width: 35px;
             height: 35px;
             border-radius: 50%;
             padding-top: 10px;
-            border: 2px solid #212121;
+            border: 2px solid $black-i-color;
         }
     }
 }
@@ -252,15 +260,15 @@ h2 {
 .contact {
     h5 {
         padding: 50px 0 0;
-        color: #ffffff;
-        font-family: Montserrat;
+        color: $white-color;
+        font-family: $fonts-h;
         text-transform: uppercase;
         font-weight: 700;
     }
 
      p {
-        color: #484848;
-        font-family: Droid Serif;
+        color: $grey-contact-color;
+        font-family: $fonts;
     }
 }
 
@@ -292,8 +300,8 @@ header, footer, {
         a {
             text-decoration: none;
             i {
-                background-color: #222222;
-                color: #ffffff;
+                background-color: $black-color;
+                color: $white-color;
                 width: 35px;
                 height: 35px;
                 border-radius: 50%;
@@ -310,8 +318,8 @@ footer {
     }
 
     i {
-    background-color: #ffffff;
-    color: #222222;
+    background-color: $white-color;
+    color: $black-color;
     width: 16px;
     height: 16px;
     border-radius: 50%;
