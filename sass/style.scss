@@ -171,56 +171,28 @@ h2 {
 .vertical-line {
     border-left: thick solid #F9F9F9;
     position: absolute;
+    height: 400px;
     display: block;
     float: right;
+    z-index: -1;
 }
 
-.july-row {
+.callendar-row {
     display: flex;
     justify-content: center;
+    min-height: 300px;
 }
 
-.july-text {
+.callendar-left-text {
     display: flex;
     justify-content: center;
     max-width: 30%;
     margin-right: auto;
 }
 
-.january-row {
-    display: flex;
-    justify-content: center;
-}
-
-.january-text {
+.callendar-right-text {
     display: flex;
     justify-content: flex-start;
-    max-width: 30%;
-    margin-left: auto;
-}
-
-.december-row {
-    display: flex;
-    justify-content: center;
-}
-
-.december-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 30%;
-    margin-right: auto;
-}
-
-.february-row {
-    display: flex;
-    justify-content: center;
-}
-
-.february-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     max-width: 30%;
     margin-left: auto;
 }
@@ -299,11 +271,6 @@ h2 {
     clear: both;
 }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both; }
-
 [class*="col-"] {
     min-height: 1px;
     padding: 10px;
@@ -316,7 +283,6 @@ header, footer, {
 .socialmedia {
     display: inline-block;
     text-align: center;
-    margin-top: 20px;
     li {
         list-style: none;
         display: block;
