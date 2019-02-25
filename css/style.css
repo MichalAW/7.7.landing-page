@@ -129,7 +129,6 @@ h2 {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 100px;
-  margin-top: 50px;
 }
 
 .container {
@@ -199,6 +198,29 @@ h2 {
   background-color: #F7F7F7;
 }
 
+.team {
+  text-align: center;
+  display: block;
+}
+
+.team h6 {
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 50px;
+  color: #222222;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.team h2 {
+  font-size: 40px;
+  letter-spacing: -2px;
+  color: #222222;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
 .team-h {
   padding-top: 115px;
   padding-bottom: 84px;
@@ -209,16 +231,16 @@ h2 {
 }
 
 .socialmedia-team {
-  display: inline-block;
   text-align: center;
-  margin-top: 20px;
+  padding: 0 59px;
+  display: inline-block;
 }
 
 .socialmedia-team li {
   list-style: none;
   display: block;
   float: left;
-  margin-right: 20px;
+  margin-right: 11px;
 }
 
 .socialmedia-team li a {
@@ -228,11 +250,11 @@ h2 {
 .socialmedia-team li i {
   background-color: #F7F7F7;
   color: #222222;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
   padding-top: 10px;
-  border: 2px solid #212121;
+  border: 3px solid #212121;
 }
 
 .sponsor-background {
@@ -263,6 +285,34 @@ h2 {
 .contact p {
   color: #484848;
   font-family: "Montserrat", sans-serif;
+}
+
+.input {
+  padding: 0 215px;
+}
+
+input[type=text] {
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #222222;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding: 25.8px 0;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+}
+
+textarea[type=text] {
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #222222;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  width: 455px;
+  height: 209px;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
 }
 
 .row::before,
@@ -306,18 +356,26 @@ header, footer {
   padding-top: 10px;
 }
 
+footer {
+  margin-top: 34px;
+}
+
 footer p {
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 22px;
   float: left;
-  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #555555;
 }
 
 footer i {
   background-color: #FFFFFF;
   color: #222222;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  padding-top: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
 }
 
 @media only screen and (max-width: 768px) {
