@@ -12,11 +12,7 @@ body {
   margin: 0 auto;
 }
 
-/*fonts*/
-h4, h3, p {
-  font-family: Open Sans Condensed, sans-serif;
-}
-
+/*font-Open*/
 header {
   height: 690px;
   background-image: url("../imgpng/backgroundheader.png");
@@ -51,11 +47,11 @@ header {
 }
 
 .topbar a:hover {
-  color: black;
+  color: #FED136;
 }
 
 .topbar a.active {
-  color: white;
+  color: #FFFFFF;
 }
 
 .welcome {
@@ -71,7 +67,7 @@ header {
 
 .welcome h1 {
   color: #FFFFFF;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 55px;
   font-weight: 600;
   letter-spacing: -1.88px;
@@ -82,7 +78,7 @@ header {
 
 .welcome h3 {
   color: #FFFFFF;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 30px;
   font-style: italic;
   letter-spacing: -1px;
@@ -92,7 +88,7 @@ header {
 h2 {
   padding: 50px 0 0;
   color: #222222;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -102,13 +98,42 @@ h2 {
   padding-bottom: 116px;
 }
 
-.services-h {
+.services-header {
   margin-bottom: 84px;
 }
 
-.services-p {
-  font-weight: bold;
-  font-size: 20px;
+.services-header h2 {
+  font-size: 40px;
+  letter-spacing: -1px;
+  line-height: 75px;
+  color: #222222;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+}
+
+.services-header p {
+  font-size: 16px;
+  color: #777777;
+  font-family: Open Sans Condensed, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.services-main-paragraph {
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 75px;
+  color: #222222;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+}
+
+.services-paragraph {
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #777777;
+  font-family: Open Sans Condensed, sans-serif;
+  font-weight: 400;
 }
 
 .logo {
@@ -118,6 +143,10 @@ h2 {
   margin-left: 110px;
   margin-top: 20px;
   position: absolute;
+}
+
+.button {
+  padding-top: 60px;
 }
 
 .btn {
@@ -146,6 +175,10 @@ h2 {
   padding-top: 110px;
 }
 
+.portfolio img {
+  padding: 25px 22.5px;
+}
+
 .absolute {
   position: absolute;
 }
@@ -154,15 +187,33 @@ h2 {
   padding-bottom: 20px;
 }
 
-.callendar h2, h5 {
-  font-weight: bold;
+.calendar h2 {
+  font-size: 40px;
+  letter-spacing: -1px;
+  line-height: 75px;
+  color: #222222;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  text-align: center;
 }
 
-.callendar-h h2 {
+.calendar-header {
+  padding-bottom: 90px;
+}
+
+.calendar-header h2 {
   padding-top: 115px;
 }
 
-.callendar-background {
+.calendar-header p {
+  font-size: 16px;
+  color: #777777;
+  font-family: Open Sans Condensed, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.calendar-background {
   padding-bottom: 115px;
 }
 
@@ -174,24 +225,60 @@ h2 {
   z-index: -1;
 }
 
-.callendar-row {
+.calendar-row {
   display: flex;
   justify-content: center;
   min-height: 300px;
 }
 
-.callendar-left-text {
+.calendar-left-text {
   display: flex;
   justify-content: center;
   max-width: 30%;
   margin-right: auto;
 }
 
-.callendar-right-text {
+.calendar-left-text h5 {
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #222222;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  text-align: right;
+}
+
+.calendar-left-text p {
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #222222;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  text-align: right;
+}
+
+.calendar-right-text {
   display: flex;
   justify-content: flex-start;
   max-width: 30%;
   margin-left: auto;
+}
+
+.calendar-right-text h5 {
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #222222;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  text-align: left;
+}
+
+.calendar-right-text p {
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #222222;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  text-align: left;
 }
 
 .team-background {
@@ -200,7 +287,6 @@ h2 {
 
 .team {
   text-align: center;
-  display: block;
 }
 
 .team h6 {
@@ -208,7 +294,7 @@ h2 {
   letter-spacing: 0px;
   line-height: 50px;
   color: #222222;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: 700;
   text-align: center;
 }
@@ -217,8 +303,17 @@ h2 {
   font-size: 40px;
   letter-spacing: -2px;
   color: #222222;
-  font-family: "Montserrat";
+  font-family: Montserrat, sans-serif;
   font-weight: 700;
+}
+
+.team p {
+  font-size: 16px;
+  color: #777777;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
 }
 
 .team-h {
@@ -231,14 +326,12 @@ h2 {
 }
 
 .socialmedia-team {
-  text-align: center;
   padding: 0 59px;
   display: inline-block;
 }
 
 .socialmedia-team li {
   list-style: none;
-  display: block;
   float: left;
   margin-right: 11px;
 }
@@ -260,8 +353,6 @@ h2 {
 .sponsor-background {
   width: 100%;
   padding: 57px 0;
-  padding-left: 294px;
-  padding-right: 294px;
 }
 
 .contact-background {
@@ -276,7 +367,7 @@ h2 {
 .contact h6 {
   padding: 50px 0 0;
   color: #FFFFFF;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 40px;
@@ -284,20 +375,17 @@ h2 {
 
 .contact p {
   color: #484848;
-  font-family: "Montserrat", sans-serif;
-}
-
-.input {
-  padding: 0 215px;
+  font-family: Montserrat, sans-serif;
 }
 
 input[type=text] {
   font-size: 14px;
   letter-spacing: 0px;
   color: #222222;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: 700;
   padding: 25.8px 0;
+  padding-left: 25.8px;
   border-radius: 2px;
   background-color: #FFFFFF;
   border: 1px solid #CCCCCC;
@@ -307,9 +395,8 @@ textarea[type=text] {
   font-size: 14px;
   letter-spacing: 0px;
   color: #222222;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: 700;
-  width: 455px;
   height: 209px;
   background-color: #FFFFFF;
   border: 1px solid #CCCCCC;
@@ -365,7 +452,7 @@ footer p {
   letter-spacing: 0px;
   line-height: 22px;
   float: left;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: bold;
   color: #555555;
 }
@@ -384,6 +471,20 @@ footer i {
   }
   .welcome h3 {
     font-size: 20px;
+  }
+  .welcome .button {
+    padding-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 468px) {
+  .welcome {
+    display: block;
+  }
+  .logo {
+    display: block;
+    position: relative;
+    text-align: center;
   }
 }
 

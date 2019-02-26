@@ -9,8 +9,8 @@ $grey-color: #F7F7F7;
 $grey-contact-color: #484848;
 $thick-color: #F9F9F9;
 $footer-color: #555555;
-$fonts: Open Sans Condensed, sans-serif;
-$fonts-h: "Montserrat", sans-serif;
+$font-Open: Open Sans Condensed, sans-serif;
+$font-montserrat: Montserrat, sans-serif;
 
 * {
     box-sizing: border-box;
@@ -25,10 +25,7 @@ body {
     width: 100%;
     margin: 0 auto;
 }
-/*fonts*/
-h4, h3, p {
-    font-family: $fonts;
-}
+/*font-Open*/
 
 header {
     height: 690px;
@@ -63,11 +60,10 @@ header {
         text-decoration: none;
         font-size: 17px;
         &:hover {
-            color: black;
+            color: $orange-color;
         }
-
         &.active {
-            color: white;
+            color: $white-color;
         }
     }
 }
@@ -81,9 +77,10 @@ header {
 
 .welcome {
     margin-top: 100px;
+
     h1 {
         color: $white-color;
-        font-family: $fonts-h;
+        font-family: $font-montserrat;
         font-size: 55px;
         font-weight: 600;
         letter-spacing: -1.88px;
@@ -94,7 +91,7 @@ header {
 
     h3 {
         color: $white-color;
-        font-family: $fonts-h;
+        font-family: $font-montserrat;
         font-size: 30px;
         font-style: italic;
         letter-spacing: -1px;
@@ -105,7 +102,7 @@ header {
 h2 {
     padding: 50px 0 0;
     color: $black-color;
-    font-family: $fonts-h;
+    font-family: $font-montserrat;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -115,13 +112,42 @@ h2 {
     padding-bottom: 116px;
 }
 
-.services-h {
+.services-header {
     margin-bottom: 84px;
+
+    h2 {
+        font-size: 40px;
+        letter-spacing: -1px;
+        line-height: 75px;
+        color: $black-color;
+        font-family: $font-montserrat;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 16px;
+        color: $grey-paragraph;
+        font-family: $font-Open;
+        font-weight: 400;
+        font-style: italic;
+    }
 }
 
-.services-p {
-    font-weight: bold;
-    font-size: 20px;
+.services-main-paragraph {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 75px;
+    color: $black-color;
+    font-family: $font-montserrat;
+    font-weight: 700;
+}
+
+.services-paragraph {
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: $grey-paragraph;
+    font-family: $font-Open;
+    font-weight: 400;
 }
 
 .logo {
@@ -131,6 +157,10 @@ h2 {
     margin-left: 110px;
     margin-top: 20px;
     position: absolute;
+}
+
+.button {
+    padding-top: 60px;
 }
 
 .btn {
@@ -157,6 +187,10 @@ h2 {
 .portfolio {
     padding-bottom: 80px;
     padding-top: 110px;
+    
+    img {
+        padding: 25px 22.5px;
+    }
 }
 
 .absolute {
@@ -167,15 +201,33 @@ h2 {
     padding-bottom: 20px;
 }
 
-.callendar h2, h5 {
-    font-weight: bold;
+.calendar h2 {
+    font-size: 40px;
+    letter-spacing: -1px;
+    line-height: 75px;
+    color: $black-color;
+    font-family: $font-montserrat;
+    font-weight: 700;
+    text-align: center;
 }
 
-.callendar-h h2 {
-    padding-top: 115px;
+.calendar-header  {
+    padding-bottom: 90px;
+
+    h2 {
+        padding-top: 115px;
+    }
+
+    p {
+        font-size: 16px;
+        color: $grey-paragraph;
+        font-family: $font-Open;
+        font-weight: 400;
+        font-style: italic;
+    }
 }
 
-.callendar-background {
+.calendar-background {
     padding-bottom: 115px;
 }
 
@@ -187,24 +239,58 @@ h2 {
     z-index: -1;
 }
 
-.callendar-row {
+.calendar-row {
     display: flex;
     justify-content: center;
     min-height: 300px;
 }
 
-.callendar-left-text {
+.calendar-left-text {
     display: flex;
     justify-content: center;
     max-width: 30%;
     margin-right: auto;
+    h5 {
+        font-size: 18px;
+        letter-spacing: 0px;
+        color: $black-color;
+        font-family: $font-montserrat;
+        font-weight: 700;
+        text-align: right;
+    }
+
+      p {
+        font-size: 14px;
+        letter-spacing: 0px;
+        color:  $black-color;
+        font-family: $font-montserrat;
+        font-weight: 400;
+        text-align: right;
+    }
 }
 
-.callendar-right-text {
+.calendar-right-text {
     display: flex;
     justify-content: flex-start;
     max-width: 30%;
     margin-left: auto;
+    h5 {
+        font-size: 18px;
+        letter-spacing: 0px;
+        color: $black-color;
+        font-family: $font-montserrat;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    p {
+        font-size: 14px;
+        letter-spacing: 0px;
+        color:  $black-color;
+        font-family: $font-montserrat;
+        font-weight: 400;
+        text-align: left;
+    }
 }
 
 .team-background {
@@ -213,12 +299,13 @@ h2 {
 
 .team {
     text-align: center;
+
     h6 {
         font-size: 16px;
         letter-spacing: 0px;
         line-height: 50px;
         color: $black-color;
-        font-family: $fonts-h;
+        font-family: $font-montserrat;
         font-weight: 700;
         text-align: center;
     }
@@ -227,14 +314,14 @@ h2 {
         font-size: 40px;
         letter-spacing: -2px;
         color: $black-color;
-        font-family: $font-h;
+        font-family: $font-montserrat;
         font-weight: 700;
     }
 
     p {
         font-size: 16px;
         color: $grey-paragraph;
-        font-family: $fonts-h;
+        font-family: $font-montserrat;
         font-weight: 400;
         font-style: italic;
         text-align: center;
@@ -253,10 +340,12 @@ h2 {
 .socialmedia-team {
     padding: 0 59px;
     display: inline-block;
+
     li {
         list-style: none;
         float: left;
         margin-right: 11px;
+
         a {
             text-decoration: none;
         }
@@ -276,8 +365,6 @@ h2 {
 .sponsor-background {
     width: 100%;
     padding: 57px 0;
-    padding-left: 294px;
-    padding-right: 294px;
 }
 
 .contact-background {
@@ -293,7 +380,7 @@ h2 {
     h6 {
         padding: 50px 0 0;
         color: $white-color;
-        font-family: $fonts-h;
+        font-family: $font-montserrat;
         text-transform: uppercase;
         font-weight: 700;
         font-size: 40px;
@@ -301,21 +388,18 @@ h2 {
 
      p {
         color: $grey-contact-color;
-        font-family: $fonts-h;
+        font-family: $font-montserrat;
     }
-}
-
-.input {
-    padding: 0 215px;
 }
 
 input[type=text] {
     font-size: 14px;
     letter-spacing: 0px;
     color: $black-color;
-    font-family: $fonts-h;
+    font-family: $font-montserrat;
     font-weight: 700;
     padding: 25.8px 0;
+    padding-left: 25.8px;
     border-radius: 2px;
     background-color: $white-color;
     border: 1px solid $border-color;
@@ -325,9 +409,8 @@ textarea[type=text] {
     font-size: 14px;
     letter-spacing: 0px;
     color: $black-color;
-    font-family: $fonts-h;
+    font-family: $font-montserrat;
     font-weight: 700;
-    width: 455px;
     height: 209px;
     background-color: $white-color;
     border: 1px solid $border-color;
@@ -352,13 +435,16 @@ header, footer, {
 .socialmedia {
     display: inline-block;
     text-align: center;
+
     li {
         list-style: none;
         display: block;
         float: left;
         margin-right: 20px;
+
         a {
             text-decoration: none;
+
             i {
                 background-color: $black-color;
                 color: $white-color;
@@ -372,13 +458,14 @@ header, footer, {
 }
 
 footer {
-        margin-top: 34px;
+    margin-top: 34px;
+
     p {
         font-size: 14px;
         letter-spacing: 0px;
         line-height: 22px;
         float: left;
-        font-family: $fonts-h;
+        font-family: $font-montserrat;
         font-weight: bold;
         color: $footer-color;
     }
@@ -401,4 +488,20 @@ footer {
          h3 {
         font-size: 20px;
     }
+
+    .button {
+        padding-top: 100px;
+    }
 }}
+
+@media only screen and (max-width: 468px) {
+    .welcome {
+        display: block;
+    }
+
+    .logo {
+        display: block;
+        position: relative;
+        text-align: center;
+    }
+}
