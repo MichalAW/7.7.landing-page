@@ -472,8 +472,29 @@ footer i {
   .welcome h3 {
     font-size: 20px;
   }
-  .welcome .button {
+  .welcome .button-welcome {
     padding-top: 100px;
+  }
+  .calendar-row {
+    min-height: 400px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .absolute {
+    position: static;
+  }
+  .vertical-line {
+    display: none;
+  }
+  .calendar-left-text {
+    display: block;
+    position: absolute;
+    text-align: center;
+  }
+  .calendar-right-text {
+    display: block;
+    position: absolute;
+    text-align: center;
   }
 }
 
