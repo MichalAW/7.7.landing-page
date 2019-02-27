@@ -510,13 +510,13 @@ footer {
 
     .calendar-left-text {
         display: block;
-        position: absolute;
+        flex-direction: column;
         text-align: center;
     }
 
     .calendar-right-text {
         display: block;
-        position: absolute;
+        flex-direction: column;
         text-align: center;
     }
 
