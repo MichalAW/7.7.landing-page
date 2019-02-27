@@ -466,6 +466,9 @@ footer i {
 }
 
 @media only screen and (max-width: 768px) {
+  .welcome {
+    display: block;
+  }
   .welcome h1 {
     font-size: 30px;
   }
@@ -474,6 +477,11 @@ footer i {
   }
   .welcome .button-welcome {
     padding-top: 100px;
+  }
+  .logo {
+    display: block;
+    position: relative;
+    text-align: center;
   }
   .calendar-row {
     min-height: 400px;
@@ -490,10 +498,24 @@ footer i {
     display: block;
     flex-direction: column;
     text-align: center;
+    max-width: 100%;
+  }
+  .calendar-left-text h5 {
+    text-align: center;
+  }
+  .calendar-left-text p {
+    text-align: center;
   }
   .calendar-right-text {
     display: block;
     flex-direction: column;
+    text-align: center;
+    max-width: 100%;
+  }
+  .calendar-right-text h5 {
+    text-align: center;
+  }
+  .calendar-right-text p {
     text-align: center;
   }
 }
