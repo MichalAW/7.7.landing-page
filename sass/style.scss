@@ -20,6 +20,10 @@ body {
     background-color: $white-color;
 }
 
+.max-container {
+    max-width: 1400px
+}
+
 .about {
     text-align: center;
     width: 100%;
@@ -47,6 +51,17 @@ header {
 }
 
 .topbar {
+    .toggle-btn {
+    cursor: pointer;
+    float: right;
+        span {
+          display: block;
+          width: 30px;
+          height: 5px;
+          background: $white-color;
+          margin: 5px 0;
+        }
+    }
     li {
         display: block;
         float: left;
@@ -66,6 +81,16 @@ header {
             color: $white-color;
         }
     }
+}
+/*hamburger button*/
+.button-container {
+  display: inline-block;
+  width: 100%;
+  padding: 20px 10px 10px;
+}
+
+.button-container h3 {
+  display: inline;
 }
 
 .welcome {
@@ -433,13 +458,14 @@ header, footer, {
     text-align: center;
 }
 
-.socialmedia-container {
-    display: inline;
-}
-
 .socialmedia {
-    text-align: center;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-right: 320px;
     li {
         list-style: none;
         float: left;
@@ -563,6 +589,11 @@ footer {
     .logo {
         display: block;
         position: relative;
+        text-align: center;
+    }
+
+    .fa {
+        display: block;
         text-align: center;
     }
 }
