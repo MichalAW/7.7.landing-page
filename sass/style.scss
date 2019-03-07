@@ -466,6 +466,7 @@ header, footer, {
     align-content: center;
     align-items: center;
     margin-right: 320px;
+    display: inline-block;
     li {
         list-style: none;
         float: left;
@@ -511,24 +512,27 @@ footer {
     .welcome {
     display: block;
     h1 {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     h3 {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .button-welcome {
         padding-top: 100px;
     }
-}
+
+    .socialmedia {
+        margin: 0 auto;
+    }
     
     .logo {
         display: block;
         position: relative;
         text-align: center;
     }
-
+}
     .calendar-row {
         min-height: 400px;
         flex-direction: column;
@@ -592,8 +596,8 @@ footer {
         text-align: center;
     }
 
-    .fa {
-        display: block;
+     .socialmedia {
+        margin: 0 auto;
         text-align: center;
     }
 }

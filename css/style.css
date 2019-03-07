@@ -454,6 +454,7 @@ header, footer {
   align-content: center;
   align-items: center;
   margin-right: 320px;
+  display: inline-block;
 }
 
 .socialmedia li {
@@ -503,15 +504,18 @@ footer i {
     display: block;
   }
   .welcome h1 {
-    font-size: 30px;
+    font-size: 40px;
   }
   .welcome h3 {
-    font-size: 20px;
+    font-size: 30px;
   }
   .welcome .button-welcome {
     padding-top: 100px;
   }
-  .logo {
+  .welcome .socialmedia {
+    margin: 0 auto;
+  }
+  .welcome .logo {
     display: block;
     position: relative;
     text-align: center;
@@ -571,8 +575,8 @@ footer i {
     position: relative;
     text-align: center;
   }
-  .fa {
-    display: block;
+  .socialmedia {
+    margin: 0 auto;
     text-align: center;
   }
 }

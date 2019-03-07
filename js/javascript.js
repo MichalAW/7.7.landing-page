@@ -1,8 +1,8 @@
 function toggleTopbar(){
-  document.getElementById('sidebar').classList.toggle('active');
+  document.getElementById('topbar').classList.toggle('active');
 }
 
 toggle.addEventListener("click", function(){
-  toggleSidebar();
+  toggleTopbar();
 });
  
