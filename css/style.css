@@ -27,6 +27,11 @@ header {
   background-size: cover;
 }
 
+/*topbar*/
+.topbar.active ul li a {
+  display: none;
+}
+
 .topbar {
   font-size: 14px;
   font-weight: 400;
@@ -38,7 +43,9 @@ header {
 
 .topbar .toggle-btn {
   cursor: pointer;
-  float: right;
+  float: left;
+  position: absolute;
+  display: none;
 }
 
 .topbar .toggle-btn span {
@@ -499,6 +506,38 @@ footer i {
   border-radius: 20px;
 }
 
+@media only screen and (max-width: 1199px) {
+  .welcome {
+    display: block;
+  }
+  .welcome h1 {
+    font-size: 50px;
+  }
+  .welcome h3 {
+    font-size: 40px;
+  }
+  .welcome .button-welcome {
+    padding-top: 100px;
+  }
+  footer p {
+    display: inline-block;
+    text-align: center;
+    float: none;
+  }
+  .socialmedia {
+    margin: 0 auto;
+  }
+  .socialmedia-team {
+    display: inline-block;
+    padding: 0;
+  }
+  .socialmedia-team li {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 5px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .welcome {
     display: block;
@@ -512,13 +551,24 @@ footer i {
   .welcome .button-welcome {
     padding-top: 100px;
   }
-  .welcome .socialmedia {
-    margin: 0 auto;
-  }
-  .welcome .logo {
+  /*responsive topbar*/
+  .topbar .toggle-btn {
     display: block;
-    position: relative;
+  }
+  .topbar ul li a {
+    display: none;
+  }
+  .topbar.active {
+    width: 100%;
+  }
+  .topbar.active ul li a {
+    display: inline-block;
+  }
+  .logo {
+    display: inline-block;
     text-align: center;
+    position: relative;
+    margin: 0 auto;
   }
   .calendar-row {
     min-height: 400px;
@@ -560,10 +610,6 @@ footer i {
     text-align: center;
     padding: 0 30px;
   }
-  footer {
-    display: inline-block;
-    text-align: center;
-  }
 }
 
 @media only screen and (max-width: 468px) {
@@ -573,10 +619,6 @@ footer i {
   .logo {
     display: block;
     position: relative;
-    text-align: center;
-  }
-  .socialmedia {
-    margin: 0 auto;
     text-align: center;
   }
 }

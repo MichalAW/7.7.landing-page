@@ -40,6 +40,10 @@ header {
     position: relative;
     background-size: cover;
 }
+/*topbar*/
+.topbar.active ul li a {
+  display: none;
+}
 
 .topbar {
     font-size: 14px;
@@ -53,7 +57,9 @@ header {
 .topbar {
     .toggle-btn {
     cursor: pointer;
-    float: right;
+    float: left;
+    position: absolute;
+    display: none;
         span {
           display: block;
           width: 30px;
@@ -508,31 +514,83 @@ footer {
     }
 }
 
-@media only screen and (max-width: 768px) {
-    .welcome {
+@media only screen and (max-width: 1199px) {
+	.welcome {
     display: block;
-    h1 {
-        font-size: 40px;
-    }
+    	h1 {
+        	font-size: 50px;
+    	}
 
-    h3 {
-        font-size: 30px;
-    }
+    	h3 {
+        	font-size: 40px;
+    	}
 
-    .button-welcome {
+    	.button-welcome {
         padding-top: 100px;
+    	}
+    }
+
+    footer p {
+        display: inline-block;
+        text-align: center;
+        float: none;
     }
 
     .socialmedia {
-        margin: 0 auto;
+    	margin: 0 auto;
+    }
+
+	.socialmedia-team {
+		display: inline-block;
+		padding: 0;
+			li {
+        	display: inline-block;
+        	margin: 0 auto;
+        	padding: 0 5px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .welcome {
+    display: block;
+    	h1 {
+        	font-size: 40px;
+    	}
+
+    	h3 {
+        font-size: 30px;
+    	}
+
+    	.button-welcome {
+        padding-top: 100px;
+    	}
+    }
+    /*responsive topbar*/
+    .topbar {
+    	.toggle-btn {
+    		display: block;
+    	}
+    }
+
+    .topbar ul li a {
+    display: none;
+  	}
+
+  	.topbar.active {
+    width: 100%;
+		ul li a {
+    		display: inline-block;
+    	}
     }
     
     .logo {
-        display: block;
-        position: relative;
+        display: inline-block;
         text-align: center;
+        position: relative;
+        margin: 0 auto;
     }
-}
+
     .calendar-row {
         min-height: 400px;
         flex-direction: column;
@@ -578,11 +636,6 @@ footer {
             padding: 0 30px;
         }
     }
-
-    footer {
-        display: inline-block;
-        text-align: center;
-    }
 }
 
 @media only screen and (max-width: 468px) {
@@ -596,8 +649,4 @@ footer {
         text-align: center;
     }
 
-     .socialmedia {
-        margin: 0 auto;
-        text-align: center;
-    }
 }
