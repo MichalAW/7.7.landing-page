@@ -59,7 +59,7 @@ header {
 .topbar {
     .toggle-btn {
     cursor: pointer;
-    float: left;
+    float: right;
     position: absolute;
     display: none;
         span {
@@ -70,25 +70,28 @@ header {
           margin: 5px 0;
         }
     }
-    li {
-        display: block;
-        float: left;
-    }
+
+    ul {
+    	li {
+        	display: block;
+        	float: left;
+    	}
     
-    a {
-        float: right;
-        color: $topbar-a-color;
-        text-align: center;
-        padding: 0 16px;
-        text-decoration: none;
-        font-size: 17px;
-        &:hover {
-            color: $orange-color;
-        }
-        &.active {
-            color: $white-color;
-        }
-    }
+	    a {
+	        float: right;
+	        color: $topbar-a-color;
+	        text-align: center;
+	        padding: 0 16px;
+	        text-decoration: none;
+	        font-size: 17px;
+	        &:hover {
+	            color: $orange-color;
+	        }
+	        &.active {
+	            color: $white-color;
+	        }
+	    }
+	}
 }
 /*hamburger button*/
 .button-container {
