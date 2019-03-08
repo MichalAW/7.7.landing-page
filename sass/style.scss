@@ -52,6 +52,8 @@ header {
     float: right;
     text-transform: uppercase;
     padding-top: 20px;
+    transition: all 500ms linear;
+  	z-index: 1;
 }
 
 .topbar {
