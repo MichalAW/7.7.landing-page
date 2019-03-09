@@ -19,7 +19,5 @@ for (var i = 0; i < links.length; i++) {
       sections[i].classList.remove('active');
     }
 
-    // nadawanie klasy active kliknietej z topbar sekcji
-    document.querySelector(this.hash).classList.add('active');
   });
 }

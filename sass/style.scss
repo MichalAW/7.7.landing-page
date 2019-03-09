@@ -20,10 +20,6 @@ body {
     background-color: $white-color;
 }
 
-.max-container {
-    max-width: 1400px
-}
-
 .about {
     text-align: center;
     width: 100%;
@@ -41,8 +37,19 @@ header {
     background-size: cover;
 }
 /*topbar*/
-.topbar.active ul li a {
-  display: none;
+.topbar.active {
+	ul {
+		position: absolute;
+	    right: -15px;
+	    top: 55px; 
+		li {
+			display: block;
+			float: none;
+			a {
+  				display: none;
+  			}
+  		}
+  	}
 }
 
 .topbar {
@@ -52,15 +59,17 @@ header {
     float: right;
     text-transform: uppercase;
     padding-top: 20px;
-    transition: all 500ms linear;
   	z-index: 1;
+  	position: absolute;
+  	right: 0;
+  	top: 0;
 }
 
 .topbar {
     .toggle-btn {
     cursor: pointer;
     float: right;
-    position: absolute;
+    position: relative;
     display: none;
         span {
           display: block;
@@ -583,7 +592,6 @@ footer {
   	}
 
   	.topbar.active {
-    width: 100%;
 		ul li a {
     		display: inline-block;
     	}
