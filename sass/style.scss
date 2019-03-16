@@ -53,19 +53,20 @@ header {
 }
 
 .topbar {
+
+}
+
+.topbar {
     font-size: 14px;
     font-weight: 400;
     line-height: 41px;
     float: right;
     text-transform: uppercase;
     padding-top: 20px;
-  	z-index: 1;
-  	position: absolute;
-  	right: 0;
-  	top: 0;
-}
-
-.topbar {
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
     .toggle-btn {
     cursor: pointer;
     float: right;
@@ -153,8 +154,8 @@ h2 {
 }
 
 .services {
-    padding-top: 126px; 
-    padding-bottom: 116px;
+    padding-top: 120px; 
+    padding-bottom: 120px;
 }
 
 .services-header {
@@ -460,18 +461,6 @@ textarea[type=text] {
     height: 209px;
     background-color: $white-color;
     border: 1px solid $border-color;
-}
-
-.row::before, 
-.row::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-[class*="col-"] {
-    min-height: 1px;
-    padding: 10px;
 }
 
 header, footer, {

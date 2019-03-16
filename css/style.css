@@ -140,8 +140,8 @@ h2 {
 }
 
 .services {
-  padding-top: 126px;
-  padding-bottom: 116px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .services-header {
@@ -446,18 +446,6 @@ textarea[type=text] {
   height: 209px;
   background-color: #FFFFFF;
   border: 1px solid #CCCCCC;
-}
-
-.row::before,
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-[class*="col-"] {
-  min-height: 1px;
-  padding: 10px;
 }
 
 header, footer {
