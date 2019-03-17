@@ -1,16 +1,4 @@
-$white-color: #FFFFFF;
-$border-color: #CCCCCC;
-$topbar-a-color: #F2F2F2;
-$black-color: #222222;
-$black-i-color: #212121;
-$orange-color: #FED136;
-$grey-paragraph: #777777;
-$grey-color: #F7F7F7;
-$grey-contact-color: #484848;
-$thick-color: #F9F9F9;
-$footer-color: #555555;
-$font-Open: Open Sans Condensed, sans-serif;
-$font-montserrat: Montserrat;
+@import 'variables';
 
 * {
     box-sizing: border-box;
@@ -34,25 +22,6 @@ header {
     text-align: center;
     position: relative;
     background-size: cover;
-}
-// topbar
-.topbar.active {
-	ul {
-		position: absolute;
-	    right: -15px;
-	    top: 55px; 
-		li {
-			display: block;
-			float: none;
-			a {
-  				display: none;
-  			}
-  		}
-  	}
-}
-
-.topbar {
-
 }
 
 .topbar {
@@ -369,7 +338,7 @@ h2 {
 }
 
 .team-h {
-    padding-top: 115px;
+    padding-top: 65px;
     padding-bottom: 84px;
 }
 
@@ -571,6 +540,20 @@ footer {
         padding-top: 100px;
     	}
     }
+
+    // topbar action
+    .topbar.active {
+        ul {
+            position: absolute;
+            right: -15px;
+            top: 55px; 
+            li {
+                display: block;
+                float: none;
+            }
+        }
+    }
+
     // responsive topbar
     .topbar {
         right: 20px;
@@ -580,7 +563,7 @@ footer {
     }
 
     .topbar ul li a {
-    display: none;
+        display: none;
   	}
 
   	.topbar.active {

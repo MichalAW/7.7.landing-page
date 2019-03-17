@@ -22,21 +22,6 @@ header {
   background-size: cover;
 }
 
-.topbar.active ul {
-  position: absolute;
-  right: -15px;
-  top: 55px;
-}
-
-.topbar.active ul li {
-  display: block;
-  float: none;
-}
-
-.topbar.active ul li a {
-  display: none;
-}
-
 .topbar {
   font-size: 14px;
   font-weight: 400;
@@ -357,7 +342,7 @@ h2 {
 }
 
 .team-h {
-  padding-top: 115px;
+  padding-top: 65px;
   padding-bottom: 84px;
 }
 
@@ -550,6 +535,15 @@ footer i {
   }
   .welcome .button-welcome {
     padding-top: 100px;
+  }
+  .topbar.active ul {
+    position: absolute;
+    right: -15px;
+    top: 55px;
+  }
+  .topbar.active ul li {
+    display: block;
+    float: none;
   }
   .topbar {
     right: 20px;
