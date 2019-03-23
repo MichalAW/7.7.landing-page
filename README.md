@@ -1,6 +1,6 @@
 # landing-page
 Simple landing page
-https://github.com/MichalAW/landing-page.git
+https://github.com/MichalAW/08.landing-page.git
 Gitpage
 https://michalaw.github.io/landing-page/
 Gitbash
