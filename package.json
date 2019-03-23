@@ -1,5 +1,5 @@
 {
-  "name": "landing-page",
+  "name": "08.landing-page",
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
@@ -21,15 +21,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MichalAW/landing-page.git"
+    "url": "https://github.com/MichalAW/08.landing-page.git"
   },
   "keywords": [],
   "author": "MichalAW michal.wanta@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MichalAW/landing-page/issues"
+    "url": "https://github.com/MichalAW/08.landing-page/issues"
   },
-  "homepage": "https://github.com/MichalAW/landing-page#readme",
+  "homepage": "https://github.com/MichalAW/08.landing-page#readme",
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.26.3",
