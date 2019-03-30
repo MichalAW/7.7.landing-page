@@ -19,3 +19,13 @@ toggle.addEventListener("click", function(){
   	toggleTopbar();
 });
 }
+
+// validation of the form
+document.querySelector('.btn-send').addEventListener('click', function() {
+	var textareaVal = document.querySelector('.contact textarea').value;
+  if (textareaVal.length > 0) {
+    return;
+  } else {
+    alert("Your message field is required!");
+  }
+});

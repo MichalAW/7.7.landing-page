@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+//color on whole page
+body {
+    background-color: $white-color;
+}
+
+header {
+    height: 690px;
+    background-image: url("../imgpng/backgroundheader.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+}
+
+h2 {
+    padding: 50px 0 0;
+    color: $black-color;
+    font-family: $font-montserrat;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+//input and textarea for conctact sheet
+input[type=text], input[type=email] {
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: $black-color;
+    font-family: $font-montserrat;
+    font-weight: 700;
+    padding: 25.8px 0;
+    padding-left: 25.8px;
+    border-radius: 2px;
+    background-color: $white-color;
+    border: 1px solid $border-color;
+}
+
+textarea[type=text] {
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: $black-color;
+    font-family: $font-montserrat;
+    font-weight: 700;
+    height: 209px;
+    background-color: $white-color;
+    border: 1px solid $border-color;
+}
+
+footer {
+    padding: 25px 0 36px 0;
+    text-align: center;  
+    p {
+        font-size: 14px;
+        letter-spacing: 0px;
+        line-height: 22px;
+        font-family: $font-montserrat;
+        font-weight: 400;
+        color: $footer-color;
+        display: block;
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    i {
+        background-color: $white-color;
+        color: $black-color;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+    }
+}

@@ -6,12 +6,6 @@ body {
   background-color: #FFFFFF;
 }
 
-.about {
-  text-align: center;
-  width: 100%;
-  margin: 0 auto;
-}
-
 header {
   height: 690px;
   background-image: url("../imgpng/backgroundheader.png");
@@ -20,6 +14,69 @@ header {
   text-align: center;
   position: relative;
   background-size: cover;
+}
+
+h2 {
+  padding: 50px 0 0;
+  color: #222222;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+input[type=text], input[type=email] {
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #222222;
+  font-family: Montserrat;
+  font-weight: 700;
+  padding: 25.8px 0;
+  padding-left: 25.8px;
+  border-radius: 2px;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+}
+
+textarea[type=text] {
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #222222;
+  font-family: Montserrat;
+  font-weight: 700;
+  height: 209px;
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+}
+
+footer {
+  padding: 25px 0 36px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  font-family: Montserrat;
+  font-weight: 400;
+  color: #555555;
+  display: block;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+footer i {
+  background-color: #FFFFFF;
+  color: #222222;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.about {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .topbar {
@@ -110,14 +167,6 @@ header {
 
 .welcome .button-welcome {
   padding-top: 37.6px;
-}
-
-h2 {
-  padding: 50px 0 0;
-  color: #222222;
-  font-family: Montserrat;
-  text-transform: uppercase;
-  font-weight: 700;
 }
 
 .services {
@@ -403,34 +452,6 @@ h2 {
   font-family: Montserrat;
 }
 
-input[type=text], input[type=email] {
-  font-size: 14px;
-  letter-spacing: 0px;
-  color: #222222;
-  font-family: Montserrat;
-  font-weight: 700;
-  padding: 25.8px 0;
-  padding-left: 25.8px;
-  border-radius: 2px;
-  background-color: #FFFFFF;
-  border: 1px solid #CCCCCC;
-}
-
-textarea[type=text] {
-  font-size: 14px;
-  letter-spacing: 0px;
-  color: #222222;
-  font-family: Montserrat;
-  font-weight: 700;
-  height: 209px;
-  background-color: #FFFFFF;
-  border: 1px solid #CCCCCC;
-}
-
-header, footer {
-  text-align: center;
-}
-
 .socialmedia {
   position: absolute;
   top: 45%;
@@ -455,30 +476,6 @@ header, footer {
   height: 35px;
   border-radius: 50%;
   padding-top: 10px;
-}
-
-footer {
-  padding: 25px 0 36px 0;
-}
-
-footer p {
-  font-size: 14px;
-  letter-spacing: 0px;
-  line-height: 22px;
-  font-family: Montserrat;
-  font-weight: 400;
-  color: #555555;
-  display: block;
-  text-align: left;
-  margin-bottom: 0;
-}
-
-footer i {
-  background-color: #FFFFFF;
-  color: #222222;
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
 }
 
 @media only screen and (max-width: 1199px) {
