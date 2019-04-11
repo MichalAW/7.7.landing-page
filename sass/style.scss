@@ -76,14 +76,14 @@
         font-family: $font-montserrat;
         font-size: 55px;
         font-weight: 700;
-        letter-spacing: -1.88px;
+        letter-spacing: -2px;
         text-transform: uppercase;
         width: 100%;
     }
 
     h3 {
         color: $white-color;
-        font-family: $font-montserrat;
+        font-family: $font-Droid;
         font-size: 30px;
         letter-spacing: -1px;
         margin-bottom: 27px; 
@@ -114,7 +114,7 @@
     p {
         font-size: 16px;
         color: $grey-paragraph;
-        font-family: $font-Open;
+        font-family: $font-Droid;
         font-weight: 400;
         font-style: italic;
     }
@@ -133,7 +133,7 @@
     font-size: 14px;
     letter-spacing: 0px;
     color: $grey-paragraph;
-    font-family: $font-Open;
+    font-family: $font-Roboto;
     font-weight: 400;
 }
 
@@ -155,6 +155,7 @@
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 100px;
+
 }
 
 .container {
@@ -168,12 +169,44 @@
 }
 
 .portfolio {
-    padding-bottom: 80px;
-    padding-top: 110px;
-    
+    padding: 50px 0 106px 0;
+    h2 {
+        font-size: 40px;
+        letter-spacing: -1px;
+        line-height: 75px;
+    }
+
+    .portfolio-p {
+        font-size: 16px;
+        color: $grey-paragraph;
+        font-family: $font-Droid;
+        font-weight: 400;
+        font-style: italic;
+    }
+
     img {
         padding: 25px 22.5px;
     }
+}
+
+.portfolio-background {
+    background-color: $white-color; 
+}
+
+.portfolio-header {
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: $portfolio-header;
+    font-family: $font-montserrat;
+    font-weight: 700;
+}
+
+.portfolio-paragraph {
+    font-size: 14px;
+    color: $portfolio-paragraph;
+    font-family: $font-Droid;
+    font-weight: 400;
+    font-style: italic;
 }
 
 .absolute {
@@ -197,13 +230,16 @@
 .calendar-header  {
     padding-bottom: 90px;
     h2 {
-        padding-top: 115px;
+        padding-top: 105px;
+        font-size: 40px;
+        letter-spacing: -1px;
+        line-height: 75px;
     }
 
     p {
         font-size: 16px;
         color: $grey-paragraph;
-        font-family: $font-Open;
+        font-family: $font-Droid;
         font-weight: 400;
         font-style: italic;
     }
@@ -245,7 +281,7 @@
         font-size: 14px;
         letter-spacing: 0px;
         color:  $black-color;
-        font-family: $font-montserrat;
+        font-family: $font-Roboto;
         font-weight: 400;
         text-align: right;
         padding-left: 120px;
@@ -305,7 +341,7 @@
     p {
         font-size: 16px;
         color: $grey-paragraph;
-        font-family: $font-montserrat;
+        font-family: $font-Droid;
         font-weight: 400;
         font-style: italic;
         text-align: center;
@@ -318,7 +354,12 @@
 }
 
 .team-p {
-    padding-bottom: 115px;
+    padding: 19px 0 100px 0;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: $grey-paragraph;
+    font-family: $font-Roboto;
+    font-weight: 400;
 }
 
 .socialmedia-team {
@@ -344,6 +385,22 @@
             border: 3px solid $black-i-color;
         }
     }
+}
+// hover for socialmedia
+.fa-twitter:hover {
+    background-color: $twitter-color;
+}
+
+.fa-facebook-f:hover {
+    background-color: $facebook-color;
+}
+
+.fa-google:hover {
+    background-color: $google-color;
+}
+
+.fa-pinterest-p:hover {
+    background-color: $pinterest-color;
 }
 
 .sponsor-background {
