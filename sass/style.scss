@@ -426,12 +426,20 @@
         text-transform: uppercase;
         font-weight: 700;
         font-size: 40px;
+        letter-spacing: -1px;
     }
 
      p {
-        color: $grey-contact-color;
-        font-family: $font-montserrat;
+        font-size: 16px;
+        color:$grey-paragraph;
+        font-family: $font-Droid;
+        font-weight: 400;
+        font-style: italic;
     }
+}
+
+.btn-background {
+    padding-top: 11px;
 }
 
 .socialmedia {

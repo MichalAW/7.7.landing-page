@@ -503,11 +503,19 @@ footer i {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 40px;
+  letter-spacing: -1px;
 }
 
 .contact p {
-  color: #484848;
-  font-family: Montserrat;
+  font-size: 16px;
+  color: #777777;
+  font-family: Droid Serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.btn-background {
+  padding-top: 11px;
 }
 
 .socialmedia {
