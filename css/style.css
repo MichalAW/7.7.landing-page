@@ -1,712 +1,202 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #FFFFFF;
-}
-
-header {
-  height: 690px;
-  background-image: url("../imgpng/backgroundheader.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  text-align: center;
-  position: relative;
-  background-size: cover;
-}
-
-h2 {
-  padding: 50px 0 0;
-  color: #222222;
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-input[type=text], input[type=email] {
-  font-size: 14px;
-  letter-spacing: 0px;
-  color: #BBBBBB;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  padding: 25.8px 0;
-  padding-left: 25.8px;
-  border-radius: 2px;
-  background-color: #FFFFFF;
-  border: 1px solid #CCCCCC;
-}
-
-textarea[type=text] {
-  font-size: 14px;
-  letter-spacing: 0px;
-  color: #BBBBBB;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  height: 209px;
-  background-color: #FFFFFF;
-  border: 1px solid #CCCCCC;
-}
-
-footer {
-  padding: 25px 0 36px 0;
-  text-align: center;
-}
-
-footer p {
-  font-size: 14px;
-  letter-spacing: 0px;
-  line-height: 22px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  color: #555555;
-  display: block;
-  text-align: left;
-  margin-bottom: 0;
-}
-
-footer i {
-  background-color: #FFFFFF;
-  color: #222222;
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
-}
-
-.about {
-  text-align: center;
-  width: 100%;
-  margin: 0 auto;
-}
-
-.topbar {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 41px;
-  float: right;
-  text-transform: uppercase;
-  padding-top: 20px;
-  z-index: 1;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.topbar .toggle-btn {
-  cursor: pointer;
-  float: right;
-  position: relative;
-  display: none;
-}
-
-.topbar .toggle-btn span {
-  display: block;
-  width: 30px;
-  height: 5px;
-  background: #FFFFFF;
-  margin: 5px 0;
-}
-
-.topbar ul li {
-  display: block;
-  float: left;
-}
-
-.topbar ul a {
-  float: right;
-  color: #F2F2F2;
-  text-align: center;
-  padding: 0 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topbar ul a:hover {
-  color: #FED136;
-}
-
-.topbar ul a.active {
-  color: #FFFFFF;
-}
-
-.button-container {
-  display: inline-block;
-  width: 100%;
-  padding: 20px 10px 10px;
-}
-
-.button-container h3 {
-  display: inline;
-}
-
-.welcome {
-  margin-top: 100px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.welcome h1 {
-  color: #FFFFFF;
-  font-family: "Montserrat", sans-serif;
-  font-size: 55px;
-  font-weight: 700;
-  text-transform: uppercase;
-  width: 100%;
-}
-
-.welcome h3 {
-  color: #FFFFFF;
-  font-family: "Droid Serif", serif;
-  font-size: 40px;
-  letter-spacing: -1px;
-  margin-bottom: 27px;
-  font-weight: 400;
-}
-
-.welcome .button-welcome {
-  padding-top: 37.6px;
-}
-
-.services {
-  padding-top: 46px;
-  padding-bottom: 120px;
-}
-
-.services-header {
-  margin-bottom: 84px;
-}
-
-.services-header h2 {
-  font-size: 40px;
-  letter-spacing: -1px;
-  line-height: 75px;
-  color: #222222;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-}
-
-.services-header p {
-  font-size: 16px;
-  color: #777777;
-  font-family: "Droid Serif", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.services-main-paragraph {
-  font-size: 18px;
-  letter-spacing: 0px;
-  line-height: 75px;
-  color: #222222;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-}
-
-.services-paragraph {
-  font-size: 14px;
-  letter-spacing: 0px;
-  color: #777777;
-  font-family: "Roboto Slab", sans-serif;
-  font-weight: 400;
-}
-
-.logo {
-  width: 99px;
-  height: 38px;
-  line-height: 41px;
-  margin-left: 110px;
-  margin-top: 18px;
-  position: absolute;
-}
-
-.btn {
-  width: 240px;
-  height: 65px;
-  background-color: #FED136;
-  color: #FFFFFF;
-  font-size: 18px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-bottom: 100px;
-}
-
-.container {
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.background-portfolio {
-  background-color: #F7F7F7;
-}
-
-.portfolio-padding {
-  padding-bottom: 30px;
-}
-
-.portfolio {
-  padding: 50px 0 106px 0;
-}
-
-.portfolio h2 {
-  font-size: 40px;
-  letter-spacing: -1px;
-  line-height: 75px;
-}
-
-.portfolio .portfolio-p {
-  font-size: 16px;
-  color: #777777;
-  font-family: "Droid Serif", serif;
-  font-weight: 400;
-  font-style: italic;
-  padding-bottom: 51px;
-}
-
-.portfolio img {
-  width: 100%;
-}
-
-.portfolio-background {
-  background-color: #FFFFFF;
-}
-
-.portfolio-header {
-  font-size: 18px;
-  letter-spacing: 0px;
-  color: #333333;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  padding-top: 23px;
-  margin: 0;
-}
-
-.portfolio-paragraph {
-  font-size: 14px;
-  color: #737373;
-  font-family: "Droid Serif", serif;
-  font-weight: 400;
-  font-style: italic;
-  padding-bottom: 25px;
-}
-
-.absolute {
-  position: absolute;
-}
-
-.absolute img {
-  padding-bottom: 20px;
-}
-
-.calendar h2 {
-  font-size: 40px;
-  letter-spacing: -1px;
-  line-height: 75px;
-  color: #222222;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  text-align: center;
-}
-
-.calendar-header {
-  padding-bottom: 90px;
-}
-
-.calendar-header h2 {
-  padding-top: 105px;
-  font-size: 40px;
-  letter-spacing: -1px;
-  line-height: 75px;
-}
-
-.calendar-header p {
-  font-size: 16px;
-  color: #777777;
-  font-family: "Droid Serif", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.calendar-background {
-  padding-bottom: 115px;
-}
-
-.vertical-line {
-  border-left: thick solid #F9F9F9;
-  position: absolute;
-  height: 400px;
-  display: block;
-  z-index: -1;
-}
-
-.calendar-row {
-  display: flex;
-  justify-content: center;
-  min-height: 300px;
-}
-
-.calendar-left-text {
-  display: flex;
-  justify-content: center;
-  max-width: 37.9%;
-  margin-right: auto;
-}
-
-.calendar-left-text h5 {
-  font-size: 18px;
-  letter-spacing: 0px;
-  color: #222222;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  text-align: right;
-}
-
-.calendar-left-text p {
-  font-size: 14px;
-  letter-spacing: 0px;
-  color: #777777;
-  font-family: "Roboto Slab", sans-serif;
-  font-weight: 400;
-  text-align: right;
-  padding-left: 120px;
-}
-
-.calendar-right-text {
-  display: flex;
-  justify-content: flex-start;
-  max-width: 37.9%;
-  margin-left: auto;
-}
-
-.calendar-right-text h5 {
-  font-size: 18px;
-  letter-spacing: 0px;
-  color: #222222;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  text-align: left;
-}
-
-.calendar-right-text p {
-  font-size: 14px;
-  letter-spacing: 0px;
-  color: #777777;
-  font-family: "Roboto Slab", sans-serif;
-  font-weight: 400;
-  text-align: left;
-  padding-right: 120px;
-}
-
-.team-background {
-  background-color: #F9F9F9;
-}
-
-.team {
-  text-align: center;
-}
-
-.team h6 {
-  font-size: 16px;
-  letter-spacing: 0px;
-  line-height: 50px;
-  color: #222222;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  text-align: center;
-}
-
-.team h2 {
-  font-size: 40px;
-  letter-spacing: -2px;
-  color: #222222;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-}
-
-.team p {
-  font-size: 16px;
-  color: #777777;
-  font-family: "Droid Serif", serif;
-  font-weight: 400;
-  font-style: italic;
-  text-align: center;
-}
-
-.team-h {
-  padding-top: 65px;
-  padding-bottom: 84px;
-}
-
-.team-p {
-  padding: 19px 0 100px 0;
-  font-size: 16px;
-  letter-spacing: 0px;
-  color: #777777;
-  font-family: "Roboto Slab", sans-serif;
-  font-weight: 400;
-}
-
-.socialmedia-team {
-  padding: 0 59px;
-  display: inline-block;
-}
-
-.socialmedia-team li {
-  list-style: none;
-  float: left;
-  margin-right: 11px;
-}
-
-.socialmedia-team li a {
-  text-decoration: none;
-}
-
-.socialmedia-team li i {
-  background-color: #F7F7F7;
-  color: #222222;
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
-  padding-top: 10px;
-  border: 3px solid #212121;
-}
-
-.fa-twitter:hover {
-  background-color: #00aced;
-}
-
-.fa-facebook-f:hover {
-  background-color: #3B5998;
-}
-
-.fa-google:hover {
-  background-color: #A52A2A;
-}
-
-.fa-pinterest-p:hover {
-  background-color: #CB2028;
-}
-
-.sponsor-background {
-  width: 100%;
-  padding: 57px 0;
-}
-
-.contact-background {
-  background-image: url("../imgpng/backgroundcontact.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  text-align: center;
-  position: relative;
-  background-size: cover;
-}
-
-.contact h6 {
-  padding: 50px 0 0;
-  color: #FFFFFF;
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 40px;
-  letter-spacing: -1px;
-}
-
-.contact p {
-  font-size: 16px;
-  color: #777777;
-  font-family: "Droid Serif", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.btn-background {
-  padding-top: 11px;
-}
-
-.socialmedia {
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.socialmedia li {
-  list-style: none;
-  float: left;
-  margin-right: 15px;
-}
-
-.socialmedia li a {
-  text-decoration: none;
-}
-
-.socialmedia li a i {
-  background-color: #222222;
-  color: #FFFFFF;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  padding-top: 10px;
-}
-
-@media only screen and (max-width: 1199px) {
-  .welcome {
-    display: block;
-  }
-  .welcome h1 {
-    font-size: 50px;
-  }
-  .welcome h3 {
-    font-size: 40px;
-  }
-  .welcome .button-welcome {
-    padding-top: 50px;
-  }
-  footer p {
-    margin-bottom: 0;
-  }
-  .socialmedia {
-    margin: 0 auto;
-  }
-  .socialmedia-team {
-    display: inline-block;
-    padding: 0;
-  }
-  .socialmedia-team li {
-    display: inline-block;
-    margin: 0 auto;
-    padding: 0 5px;
-  }
-  .calendar-left-text {
-    max-width: 34.5%;
-  }
-  .calendar-left-text p {
-    padding-left: 35px;
-  }
-  .calendar-right-text {
-    max-width: 34.5%;
-  }
-  .calendar-right-text p {
-    padding-right: 35px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .welcome {
-    display: block;
-  }
-  .welcome h1 {
-    font-size: 40px;
-  }
-  .welcome h3 {
-    font-size: 30px;
-  }
-  .welcome .button-welcome {
-    padding-top: 100px;
-  }
-  .topbar.active ul {
-    position: absolute;
-    right: -15px;
-    top: 55px;
-  }
-  .topbar.active ul li {
-    display: block;
-    float: none;
-  }
-  .topbar {
-    right: 20px;
-  }
-  .topbar .toggle-btn {
-    display: block;
-  }
-  .topbar ul li a {
-    display: none;
-  }
-  .topbar.active ul li a {
-    display: inline-block;
-  }
-  .logo {
-    display: inline-block;
-    text-align: center;
-    position: relative;
-    margin: 10px auto 0;
-  }
-  .calendar-row {
-    min-height: 400px;
-    flex-direction: column;
-    align-items: center;
-  }
-  .absolute {
-    position: static;
-  }
-  .vertical-line {
-    display: none;
-  }
-  .services p {
-    padding: 0 30px;
-  }
-  .calendar-left-text {
-    display: block;
-    flex-direction: column;
-    text-align: center;
-    max-width: 100%;
-  }
-  .calendar-left-text h5 {
-    text-align: center;
-  }
-  .calendar-left-text p {
-    text-align: center;
-    padding: 0 30px;
-  }
-  .calendar-right-text {
-    display: block;
-    flex-direction: column;
-    text-align: center;
-    max-width: 100%;
-  }
-  .calendar-right-text h5 {
-    text-align: center;
-  }
-  .calendar-right-text p {
-    text-align: center;
-    padding: 0 30px;
-  }
-  footer {
-    padding: 25px 0 10px;
-  }
-  footer p {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  .socialmedia {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    top: 0;
-  }
-}
-
-@media only screen and (max-width: 468px) {
-  .welcome {
-    display: block;
-  }
-  .welcome h1 {
-    font-size: 32px;
-  }
-  .welcome h3 {
-    font-size: 26px;
-  }
-  .logo {
-    display: block;
-    position: relative;
-    text-align: center;
-  }
-}
-
-/*# sourceMappingURL=style.css.map */
+* { box-sizing: border-box; }
+
+body { background-color: #FFFFFF; }
+
+header { height: 690px; background-image: url("../imgpng/backgroundheader.png"); background-position: center; background-repeat: no-repeat; text-align: center; position: relative; background-size: cover; }
+
+h2 { padding: 50px 0 0; color: #222222; font-family: "Montserrat", sans-serif; text-transform: uppercase; font-weight: 700; }
+
+input[type=text], input[type=email] { font-size: 14px; letter-spacing: 0px; color: #BBBBBB; font-family: "Montserrat", sans-serif; font-weight: 700; padding: 25.8px 0; padding-left: 25.8px; border-radius: 2px; background-color: #FFFFFF; border: 1px solid #CCCCCC; }
+
+textarea[type=text] { font-size: 14px; letter-spacing: 0px; color: #BBBBBB; font-family: "Montserrat", sans-serif; font-weight: 700; height: 209px; background-color: #FFFFFF; border: 1px solid #CCCCCC; }
+
+footer { padding: 25px 0 36px 0; text-align: center; }
+
+footer p { font-size: 14px; letter-spacing: 0px; line-height: 22px; font-family: "Montserrat", sans-serif; font-weight: 400; color: #555555; display: block; text-align: left; margin-bottom: 0; }
+
+footer i { background-color: #FFFFFF; color: #222222; width: 40px; height: 40px; border-radius: 20px; }
+
+.about { text-align: center; width: 100%; margin: 0 auto; }
+
+.topbar { font-size: 14px; font-weight: 400; line-height: 41px; float: right; text-transform: uppercase; padding-top: 20px; z-index: 1; position: absolute; right: 0; top: 0; }
+
+.topbar .toggle-btn { cursor: pointer; float: right; position: relative; display: none; }
+
+.topbar .toggle-btn span { display: block; width: 30px; height: 5px; background: #FFFFFF; margin: 5px 0; }
+
+.topbar ul li { display: block; float: left; }
+
+.topbar ul a { float: right; color: #F2F2F2; text-align: center; padding: 0 16px; text-decoration: none; font-size: 17px; }
+
+.topbar ul a:hover { color: #FED136; }
+
+.topbar ul a.active { color: #FFFFFF; }
+
+.button-container { display: inline-block; width: 100%; padding: 20px 10px 10px; }
+
+.button-container h3 { display: inline; }
+
+.welcome { margin-top: 100px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+.welcome h1 { color: #FFFFFF; font-family: "Montserrat", sans-serif; font-size: 55px; font-weight: 700; text-transform: uppercase; width: 100%; }
+
+.welcome h3 { color: #FFFFFF; font-family: "PT Serif", serif; font-size: 40px; letter-spacing: -1px; margin-bottom: 27px; font-weight: 400; }
+
+.welcome .button-welcome { padding-top: 37.6px; }
+
+.services { padding-top: 46px; padding-bottom: 120px; }
+
+.services-header { margin-bottom: 84px; }
+
+.services-header h2 { font-size: 40px; letter-spacing: -1px; line-height: 75px; color: #222222; font-family: "Montserrat", sans-serif; font-weight: 700; }
+
+.services-header p { font-size: 16px; color: #777777; font-family: "PT Serif", serif; font-weight: 400; font-style: italic; }
+
+.services-main-paragraph { font-size: 18px; letter-spacing: 0px; line-height: 75px; color: #222222; font-family: "Montserrat", sans-serif; font-weight: 700; }
+
+.services-paragraph { font-size: 14px; letter-spacing: 0px; color: #777777; font-family: "Roboto Slab", sans-serif; font-weight: 400; }
+
+.logo { width: 99px; height: 38px; line-height: 41px; margin-left: 110px; margin-top: 18px; position: absolute; }
+
+.btn { width: 240px; height: 65px; background-color: #FED136; color: #FFFFFF; font-size: 18px; font-weight: 700; text-transform: uppercase; margin-bottom: 100px; }
+
+.container { width: 100%; margin: 0 auto; text-align: center; }
+
+.background-portfolio { background-color: #F7F7F7; }
+
+.portfolio-padding { padding-bottom: 30px; }
+
+.portfolio { padding: 50px 0 106px 0; }
+
+.portfolio h2 { font-size: 40px; letter-spacing: -1px; line-height: 75px; }
+
+.portfolio .portfolio-p { font-size: 16px; color: #777777; font-family: "PT Serif", serif; font-weight: 400; font-style: italic; padding-bottom: 51px; }
+
+.portfolio img { width: 100%; }
+
+.portfolio-background { background-color: #FFFFFF; }
+
+.portfolio-header { font-size: 18px; letter-spacing: 0px; color: #333333; font-family: "Montserrat", sans-serif; font-weight: 700; padding-top: 23px; margin: 0; }
+
+.portfolio-paragraph { font-size: 14px; color: #737373; font-family: "PT Serif", serif; font-weight: 400; font-style: italic; padding-bottom: 25px; }
+
+.absolute { position: absolute; }
+
+.absolute img { padding-bottom: 20px; }
+
+.calendar h2 { font-size: 40px; letter-spacing: -1px; line-height: 75px; color: #222222; font-family: "Montserrat", sans-serif; font-weight: 700; text-align: center; }
+
+.calendar-header { padding-bottom: 90px; }
+
+.calendar-header h2 { padding-top: 105px; font-size: 40px; letter-spacing: -1px; line-height: 75px; }
+
+.calendar-header p { font-size: 16px; color: #777777; font-family: "PT Serif", serif; font-weight: 400; font-style: italic; }
+
+.calendar-background { padding-bottom: 115px; }
+
+.vertical-line { border-left: thick solid #F9F9F9; position: absolute; height: 400px; display: block; z-index: -1; }
+
+.calendar-row { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; min-height: 300px; }
+
+.calendar-left-text { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; max-width: 37.9%; margin-right: auto; }
+
+.calendar-left-text h5 { font-size: 18px; letter-spacing: 0px; color: #222222; font-family: "Montserrat", sans-serif; font-weight: 700; text-align: right; }
+
+.calendar-left-text p { font-size: 14px; letter-spacing: 0px; color: #777777; font-family: "Roboto Slab", sans-serif; font-weight: 400; text-align: right; padding-left: 120px; }
+
+.calendar-right-text { display: -ms-flexbox; display: flex; -ms-flex-pack: start; justify-content: flex-start; max-width: 37.9%; margin-left: auto; }
+
+.calendar-right-text h5 { font-size: 18px; letter-spacing: 0px; color: #222222; font-family: "Montserrat", sans-serif; font-weight: 700; text-align: left; }
+
+.calendar-right-text p { font-size: 14px; letter-spacing: 0px; color: #777777; font-family: "Roboto Slab", sans-serif; font-weight: 400; text-align: left; padding-right: 120px; }
+
+.team-background { background-color: #F9F9F9; }
+
+.team { text-align: center; }
+
+.team h6 { font-size: 16px; letter-spacing: 0px; line-height: 50px; color: #222222; font-family: "Montserrat", sans-serif; font-weight: 700; text-align: center; }
+
+.team h2 { font-size: 40px; letter-spacing: -2px; color: #222222; font-family: "Montserrat", sans-serif; font-weight: 700; }
+
+.team p { font-size: 16px; color: #777777; font-family: "PT Serif", serif; font-weight: 400; font-style: italic; text-align: center; }
+
+.team-h { padding-top: 65px; padding-bottom: 84px; }
+
+.team-p { padding: 19px 0 100px 0; font-size: 16px; letter-spacing: 0px; color: #777777; font-family: "Roboto Slab", sans-serif; font-weight: 400; }
+
+.socialmedia-team { padding: 0 59px; display: inline-block; }
+
+.socialmedia-team li { list-style: none; float: left; margin-right: 11px; }
+
+.socialmedia-team li a { text-decoration: none; }
+
+.socialmedia-team li i { background-color: #F7F7F7; color: #222222; width: 40px; height: 40px; border-radius: 20px; padding-top: 10px; border: 3px solid #212121; }
+
+.fa-twitter:hover { background-color: #00aced; }
+
+.fa-facebook-f:hover { background-color: #3B5998; }
+
+.fa-google:hover { background-color: #A52A2A; }
+
+.fa-pinterest-p:hover { background-color: #CB2028; }
+
+.sponsor-background { width: 100%; padding: 57px 0; }
+
+.contact-background { background-image: url("../imgpng/backgroundcontact.png"); background-position: center; background-repeat: no-repeat; text-align: center; position: relative; background-size: cover; }
+
+.contact h6 { padding: 50px 0 0; color: #FFFFFF; font-family: "Montserrat", sans-serif; text-transform: uppercase; font-weight: 700; font-size: 40px; letter-spacing: -1px; }
+
+.contact p { font-size: 16px; color: #777777; font-family: "PT Serif", serif; font-weight: 400; font-style: italic; }
+
+.btn-background { padding-top: 11px; }
+
+.socialmedia { position: absolute; top: 45%; left: 50%; transform: translate(-50%, -50%); }
+
+.socialmedia li { list-style: none; float: left; margin-right: 15px; }
+
+.socialmedia li a { text-decoration: none; }
+
+.socialmedia li a i { background-color: #222222; color: #FFFFFF; width: 35px; height: 35px; border-radius: 50%; padding-top: 10px; }
+
+@media only screen and (max-width: 1199px) { .welcome { display: block; }
+  .welcome h1 { font-size: 50px; }
+  .welcome h3 { font-size: 40px; }
+  .welcome .button-welcome { padding-top: 50px; }
+  footer p { margin-bottom: 0; }
+  .socialmedia { margin: 0 auto; }
+  .socialmedia-team { display: inline-block; padding: 0; }
+  .socialmedia-team li { display: inline-block; margin: 0 auto; padding: 0 5px; }
+  .calendar-left-text { max-width: 34.5%; }
+  .calendar-left-text p { padding-left: 35px; }
+  .calendar-right-text { max-width: 34.5%; }
+  .calendar-right-text p { padding-right: 35px; } }
+
+@media only screen and (max-width: 768px) { .welcome { display: block; }
+  .welcome h1 { font-size: 40px; }
+  .welcome h3 { font-size: 30px; }
+  .welcome .button-welcome { padding-top: 100px; }
+  .topbar.active ul { position: absolute; right: -15px; top: 55px; }
+  .topbar.active ul li { display: block; float: none; }
+  .topbar { right: 20px; }
+  .topbar .toggle-btn { display: block; }
+  .topbar ul li a { display: none; }
+  .topbar.active ul li a { display: inline-block; }
+  .logo { display: inline-block; text-align: center; position: relative; margin: 10px auto 0; }
+  .calendar-row { min-height: 400px; -ms-flex-direction: column; flex-direction: column; -ms-flex-align: center; align-items: center; }
+  .absolute { position: static; }
+  .vertical-line { display: none; }
+  .services p { padding: 0 30px; }
+  .calendar-left-text { display: block; -ms-flex-direction: column; flex-direction: column; text-align: center; max-width: 100%; }
+  .calendar-left-text h5 { text-align: center; }
+  .calendar-left-text p { text-align: center; padding: 0 30px; }
+  .calendar-right-text { display: block; -ms-flex-direction: column; flex-direction: column; text-align: center; max-width: 100%; }
+  .calendar-right-text h5 { text-align: center; }
+  .calendar-right-text p { text-align: center; padding: 0 30px; }
+  footer { padding: 25px 0 10px; }
+  footer p { text-align: center; margin-bottom: 30px; }
+  .socialmedia { position: relative; display: -ms-flexbox; display: flex; -ms-flex-direction: row; flex-direction: row; -ms-flex-wrap: wrap; flex-wrap: wrap; -ms-flex-pack: center; justify-content: center; -ms-flex-line-pack: center; align-content: center; -ms-flex-align: center; align-items: center; top: 0; } }
+
+@media only screen and (max-width: 468px) { .welcome { display: block; }
+  .welcome h1 { font-size: 32px; }
+  .welcome h3 { font-size: 26px; }
+  .logo { display: block; position: relative; text-align: center; } }
