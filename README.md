@@ -6,3 +6,5 @@ Gitpage
 https://michalaw.github.io/08.landing-page/
 Gitbash
 command: npm run watch.
+
+Project base on java script, html and scss
