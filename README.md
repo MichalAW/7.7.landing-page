@@ -1,7 +1,10 @@
-# landing-page
-Simple landing page
-https://github.com/MichalAW/08.landing-page.git
+# 7.7.Landing-page
+Simple landing page (First own project) based on psd file from designer.Obtain Pixel perfect.
+repo:
+https://github.com/MichalAW/Landing-page.git
 Gitpage
-https://michalaw.github.io/08.landing-page/
+https://michalaw.github.io/Landing-page/
 Gitbash
 command: npm run watch.
+
+Project base on java script, html and scss
