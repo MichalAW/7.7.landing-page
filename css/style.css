@@ -16,6 +16,8 @@ footer p { font-size: 14px; letter-spacing: 0px; line-height: 22px; font-family:
 
 footer i { background-color: #FFFFFF; color: #222222; width: 40px; height: 40px; border-radius: 20px; }
 
+html { scroll-behavior: smooth; }
+
 .about { text-align: center; width: 100%; margin: 0 auto; }
 
 .topbar { font-size: 14px; font-weight: 400; line-height: 41px; float: right; text-transform: uppercase; padding-top: 20px; z-index: 1; position: absolute; right: 0; top: 0; }

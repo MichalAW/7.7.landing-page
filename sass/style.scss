@@ -1,6 +1,10 @@
 @import 'variables';
 @import 'normalize';
 
+html {
+    scroll-behavior: smooth;
+}
+
 .about {
     text-align: center;
     width: 100%;
