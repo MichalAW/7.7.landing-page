@@ -8,3 +8,4 @@ Gitbash
 command: npm run watch.
 
 Project base on java script, html and scss
+* psd file provided by the graphic designer from Kodilla.
